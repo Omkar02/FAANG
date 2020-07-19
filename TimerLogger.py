@@ -4,7 +4,7 @@ import os
 from gitHelper import gitStuff
 
 
-gitStuff(message = 'Inillized Time logger')
+gitStuff(message='Inillized Time logger')
 
 # cwd = ['C:/Users/omkar/Desktop/Python_Projects/CodeingProblems/Stuff', 'C:/Users/omkar/Desktop/Python_Projects/CodeingProblems/']
 
@@ -93,9 +93,9 @@ if not os.path.exists('loggingInfo.csv'):
         pass
 
 
-# import __main__ as main
+import __main__ as main
 
-# fileName = main.__file__
-# fileName = fileName.split('\\')[-1]
+fileName = main.__file__
+fileName = fileName.split('\\')[-1]
 
-# CodeTimeLogging(Flag='F', filename='fi')
+CodeTimeLogging(Flag='F', filename=fileName)
