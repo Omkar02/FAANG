@@ -1,10 +1,7 @@
 # import subprocess
 import datetime
 import os
-from gitHelper import gitStuff
 
-
-gitStuff(message='Inillized Time logger')
 
 # cwd = ['C:/Users/omkar/Desktop/Python_Projects/CodeingProblems/Stuff', 'C:/Users/omkar/Desktop/Python_Projects/CodeingProblems/']
 
