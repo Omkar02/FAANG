@@ -98,4 +98,4 @@ import __main__ as main
 fileName = main.__file__
 fileName = fileName.split('\\')[-1]
 
-CodeTimeLogging(Flag='F', filename=fileName)
+CodeTimeLogging(Flag='S', filename=fileName)
