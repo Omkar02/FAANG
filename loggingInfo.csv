@@ -11,3 +11,6 @@ FindFirstandLastPositionOfElement.py,2020-07-21,2020-07-21,07:25:59 AM,07:36:01 
 RemoveElement.py,2020-07-21,2020-07-21,10:55:18 AM,11:12:26 AM,17,Two-Pointer,Easy
 BackspaceStringCompare.py,2020-07-21,2020-07-21,11:17:00 AM,11:53:52 AM,36,Two-Pointer,Easy
 MoveZeroes.py,2020-07-21,2020-07-21,11:59:38 AM,12:21:13 PM,21,Two-Pointer,Easy
+PartitionLabels.py,2020-07-21,2020-07-21,04:17:38 PM,04:23:31 PM,5,Two-Pointer,Medium
+LongestWordinDictionarythroughDeleting.py,2020-07-21,2020-07-21,04:45:49 PM,04:50:45 PM,4,Two-Pointer,Medium
+RotateArray.py,2020-07-21,2020-07-21,09:09:30 PM,09:57:42 PM,48.0,Array,Medium
