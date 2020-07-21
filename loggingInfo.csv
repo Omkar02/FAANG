@@ -1,8 +1,13 @@
-Name,StartDate,EndDate,StartTime,EndTime,Duration,Tag
-twoNumerSum.py,2020-07-20,2020-07-20,09:40:38 AM,09:42:45 AM,2,Array
-MedianOfTwoSortedArrays.py,2020-07-20,2020-07-20,10:17:17 AM,10:21:12 AM,3,Array
-ContainerWithMostWater.py,2020-07-20,2020-07-20,10:40:26 AM,11:36:00 AM,55,Array
-3Sum.py,2020-07-20,2020-07-20,11:37:33 AM,12:08:52 PM,31,Array
-3SumClosest.py,2020-07-20,2020-07-20,02:53:34 PM,03:06:53 PM,13,Array
-4Sum.py,2020-07-20,2020-07-20,03:42:42 PM,04:13:18 PM,30,Array
-RemoveDupFromSortedArray.py,2020-07-20,2020-07-20,06:54:09 PM,07:07:30 PM,13,Array
+Name,StartDate,EndDate,StartTime,EndTime,Duration,Tag,Difficult
+twoNumerSum.py,2020-07-20,2020-07-20,09:40:38 AM,09:42:45 AM,2,Array,Medium
+MedianOfTwoSortedArrays.py,2020-07-20,2020-07-20,10:17:17 AM,10:21:12 AM,3,Array,Medium
+ContainerWithMostWater.py,2020-07-20,2020-07-20,10:40:26 AM,11:36:00 AM,55,Array,Hard
+3Sum.py,2020-07-20,2020-07-20,11:37:33 AM,12:08:52 PM,31,Array,Hard
+3SumClosest.py,2020-07-20,2020-07-20,02:53:34 PM,03:06:53 PM,13,Array,Hard
+4Sum.py,2020-07-20,2020-07-20,03:42:42 PM,04:13:18 PM,30,Array,Hard
+RemoveDupFromSortedArray.py,2020-07-20,2020-07-20,06:54:09 PM,07:07:30 PM,13,Array,Medium
+NextPermutation.py,2020-07-20,2020-07-20,07:11:56 PM,07:44:19 PM,32,Array,Medium
+FindFirstandLastPositionOfElement.py,2020-07-21,2020-07-21,07:25:59 AM,07:36:01 AM,10,Array,Hard
+RemoveElement.py,2020-07-21,2020-07-21,10:55:18 AM,11:12:26 AM,17,Two-Pointer,Easy
+BackspaceStringCompare.py,2020-07-21,2020-07-21,11:17:00 AM,11:53:52 AM,36,Two-Pointer,Easy
+MoveZeroes.py,2020-07-21,2020-07-21,11:59:38 AM,12:21:13 PM,21,Two-Pointer,Easy
