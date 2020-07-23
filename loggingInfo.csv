@@ -22,3 +22,6 @@ SumOfLengthsofNon-OverlappingSubArrays.py,2020-07-22,2020-07-22,01:05:36 PM,01:4
 SortarrayOf01sand2s.py,2020-07-22,2020-07-22,09:19:10 PM,09:19:56 PM,0.0,Array,Medium
 GreaterOnRightSide.py,2020-07-22,2020-07-22,09:21:15 PM,09:51:40 PM,30.0,Array,Hard
 MergeKSortedArrays.py,2020-07-22,2020-07-22,10:03:57 PM,10:31:54 PM,27.0,Heap,Hard
+CountOccurencesOfAnagrams.py,2020-07-23,2020-07-23,11:10:52 AM,11:23:26 AM,12.0,Sorting,Medium
+FirstNegativeIntegerInEveryWindowOfSizeK.py,2020-07-23,2020-07-23,11:25:01 AM,11:34:16 AM,9.0,Sliding-Window,Medium
+MaximumValueInABitonicArray.py,2020-07-23,2020-07-23,11:35:05 AM,11:38:16 AM,3.0,Sliding-Window,Medium
