@@ -26,6 +26,12 @@ CountOccurencesOfAnagrams.py,2020-07-23,2020-07-23,11:10:52 AM,11:23:26 AM,12.0,
 FirstNegativeIntegerInEveryWindowOfSizeK.py,2020-07-23,2020-07-23,11:25:01 AM,11:34:16 AM,9.0,Sliding-Window,Medium
 MaximumValueInABitonicArray.py,2020-07-23,2020-07-23,11:35:05 AM,11:38:16 AM,3.0,Sliding-Window,Medium
 ConvertArrayIntoZig-ZagFashion.py,2020-07-23,2020-07-23,03:12:14 PM,03:46:55 PM,34.0,Two-Pointer,Medium
-IndexOfAnExtraElement.py,2020-07-23,2020-07-23,03:54:43 PM,04:05:13 PM,10.0,Binary-Search,Medium
+IndexOfAnExtraElement.py,2020-07-23,2020-07-23,03:54:43 PM,04:05:13 PM,10.0,Searching,Medium
 FacingTheSun.py,2020-07-23,2020-07-23,04:12:16 PM,04:16:35 PM,4.0,Array,Medium
 CuttingBinaryString.py,2020-07-23,2020-07-23,09:41:28 PM,11:06:13 PM,84.0,Array,Hard
+CountStingFormed.py,2020-07-24,2020-07-24,09:16:40 PM,09:33:03 PM,16.0,String,Medium
+PeakElement.py,2020-07-24,2020-07-24,09:37:58 PM,09:47:33 PM,9.0,Searching,Medium
+MetaString.py,2020-07-24,2020-07-24,09:49:47 PM,09:54:20 PM,4.0,Searching,Medium
+LongestSubstringWithKUniqueCharacters.py,2020-07-25,2020-07-25,12:48:04 PM,01:15:03 PM,26.0,Two-Pointer,Medium
+FloodFillAlgorithm.py,2020-07-25,2020-07-25,02:52:42 PM,03:41:04 PM,48.0,Graph,Hard
+UnboundedKnapsack.py,2020-07-25,2020-07-25,04:02:54 PM,04:32:36 PM,29.0,Dynamic-Programing,Hard
