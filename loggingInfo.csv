@@ -35,3 +35,12 @@ MetaString.py,2020-07-24,2020-07-24,09:49:47 PM,09:54:20 PM,4.0,Searching,Medium
 LongestSubstringWithKUniqueCharacters.py,2020-07-25,2020-07-25,12:48:04 PM,01:15:03 PM,26.0,Two-Pointer,Medium
 FloodFillAlgorithm.py,2020-07-25,2020-07-25,02:52:42 PM,03:41:04 PM,48.0,Graph,Hard
 UnboundedKnapsack.py,2020-07-25,2020-07-25,04:02:54 PM,04:32:36 PM,29.0,Dynamic-Programing,Hard
+GenerateBinaryString.py,2020-07-25,2020-07-25,09:11:35 PM,09:35:45 PM,24.0,String,Medium
+SubarrayWithGivenSum.py,2020-07-25,2020-07-25,09:38:32 PM,09:48:07 PM,9.0,Array,Medium
+PainterProblem.py,2020-07-26,2020-07-26,02:57:29 PM,03:33:08 PM,35.0,Dynamic-Programing,Medium
+FindIfStringIsKPalindromeOrNot.py,2020-07-26,2020-07-26,03:58:16 PM,04:22:27 PM,24.0,Dynamic-Programing,Medium
+MinimumDeletionsPalindrome.py,2020-07-26,2020-07-26,05:31:36 PM,05:51:38 PM,20.0,Dynamic-Programing,Medium
+WaysToSumToN.py,2020-07-26,2020-07-26,08:54:47 PM,09:06:14 PM,11.0,Dynamic-Programing,Medium
+LongestRepeatingSubsequence.py,2020-07-26,2020-07-26,09:13:33 PM,09:18:42 PM,5.0,Dynamic-Programing,Medium
+SticklerThief.py,2020-07-26,2020-07-26,09:20:50 PM,09:36:19 PM,15.0,Dynamic-Programing,Medium
+CountNumberOfWaysToCoverDistance.py,2020-07-26,2020-07-26,09:53:55 PM,10:01:03 PM,7.0,Dynamic-Programing,Medium
