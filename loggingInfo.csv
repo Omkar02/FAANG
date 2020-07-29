@@ -50,3 +50,9 @@ KadanesAlgorithm.py,2020-07-27,2020-07-27,04:42:53 PM,04:45:28 PM,5.0,Dynamic-Pr
 BoxStacking.py,2020-07-27,2020-07-27,04:46:31 PM,05:11:58 PM,25.0,Dynamic-Programing,Medium
 UniquePartitions.py,2020-07-27,2020-07-27,09:22:58 PM,09:51:41 PM,28.0,Dynamic-Programing,Medium
 InterleavedStrings.py,2020-07-27,2020-07-27,09:55:36 PM,10:08:55 PM,13.0,Dynamic-Programing,Medium
+OptimalStrategyForAGame.py,2020-07-28,2020-07-28,04:12:42 PM,04:24:48 PM,12.0,Dynamic-Programing,Medium
+DP_01_KnapSack01.py,2020-07-29,2020-07-29,09:05:54 AM,09:49:46 AM,43.0,Dynamic-Programing,Medium
+DP_02_LCSS.py,2020-07-29,2020-07-29,11:01:37 AM,11:32:09 AM,30.0,Dynamic-Programing,Medium
+DP_03_MatrixChainMultiplication.py,2020-07-29,2020-07-29,11:58:38 AM,12:29:47 PM,31.0,Dynamic-Programing,Medium
+DP_04_SubsetSumProblem.py,2020-07-29,2020-07-29,12:58:26 PM,01:24:45 PM,26.0,Dynamic-Programing,Medium
+DP_05_CoinChange.py,2020-07-29,2020-07-29,02:28:16 PM,02:57:46 PM,29.0,Dynamic-Programing,Medium
