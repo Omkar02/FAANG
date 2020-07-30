@@ -13,6 +13,8 @@ formula :\
             dp[j] = 1 + dp[j - coins[i]]
             position[j] = i
 
+"""
+
 
 def minCoin(coins, target):
     dp = [float('inf') for i in range(target + 1)]
