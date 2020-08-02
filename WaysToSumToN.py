@@ -34,7 +34,7 @@ def waysOfSums(arr, N):
             if i >= arr[j]:
 
                 ways[i] += ways[i - arr[j]]
-    print(ways[N])
+    print(ways)
 
 
 arr = [1, 5, 6]
