@@ -71,3 +71,5 @@ DP_17_LongestCommonSubString.py,2020-08-02,2020-08-02,05:36:01 PM,05:48:06 PM,12
 DP_18_MaximumRectangularSubmatrixOf1s.py,2020-08-02,2020-08-02,06:47:22 PM,07:14:06 PM,26.0,Dynamic-Programing,Medium
 DP_19_WordBreak.py,2020-08-02,2020-08-02,09:14:26 PM,09:30:04 PM,15.0,Dynamic-Programing,Medium
 DP_20_MaxProfitAtK-Trasacrion.py,2020-08-02,2020-08-02,10:05:16 PM,10:14:21 PM,9.0,Dynamic-Programing,Medium
+DP_21_MinJumps.py,2020-08-03,2020-08-03,09:15:52 PM,09:31:15 PM,15.0,Dynamic-Programing,Medium
+DP_22_MinCostPath.py,2020-08-03,2020-08-03,09:54:42 PM,10:38:04 PM,43.0,Dynamic-Programing,Medium
