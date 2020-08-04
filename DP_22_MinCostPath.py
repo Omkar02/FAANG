@@ -7,25 +7,36 @@ CodeTimeLogging(Flag='F', filename=fileName, Tag='Dynamic-Programing', Difficult
 
 
 def minCostPath(paths):
-    path = [[0, 0]]
-    i, j = 0, 0
-    val = 0
-    while i < len(paths) - 2 or j < len(paths[0]):
-        print(i, j, f'----------------{i}{j}-------------')
+    dp = [[0 for x in range(len(paths[0]))]for y in range(len(paths))]
+    totalVal = paths[-1][-1]
+    i, j = len(paths) - 1, len(paths[0]) - 1
+    seq = []
 
-        least, i, j = getMinNeigh(paths, i, j)
-        val += least
-        path.append([i, j])
-    print(path, val)
+    while True:
+        seq.append([i, j])
+        if i > 0 and j > 0 and paths[i - 1][j] < paths[i][j - 1]:
+            totalVal += paths[i - 1][j]
+            i -= 1
+
+        elif i > 0 and j > 0 and paths[i - 1][j] > paths[i][j - 1]:
+            totalVal += paths[i][j - 1]
+            j -= 1
+
+        else:
+            seq.append([0, 0])
+            totalVal += paths[0][0]
+            break
+
+    return totalVal, list(reversed(seq))
 
 
 def getMinNeigh(dp, i, j):
     return (dp[i + 1][j], i + 1, j) if dp[i + 1][j] < dp[i][j + 1] else (dp[i][j + 1], i, j + 1)
 
 
-allPaths = [[1, 3, 3, 1],
-            [4, 2, 1, 1],
-            [4, 3, 2, 30]]
+allPaths = [[1, 3, 5, 8],
+            [4, 2, 1, 7],
+            [4, 3, 2, 3]]
 
 
 print(minCostPath(allPaths))

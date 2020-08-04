@@ -39,30 +39,30 @@ def optimalSolution(array):
         for j in range(gap, len(array)):
 
             i = j - gap
-            print('i', 'j', 'gap')
+            # print('i', 'j', 'gap')
             print(i, j, gap)
 
             x = 0
             if (i + 2) <= j:
-                print('x')
+                # print('x')
                 x = moves[i + 2][j]
 
             y = 0
             if (i + 1) <= (j - 1):
                 y = moves[i + 1][j - 1]
-                print('y', y, [i, j], [i + 1, j - 1],'------------')
+                # print('y', y, [i, j], [i + 1, j - 1], '------------')
             z = 0
             if i <= (j - 2):
-                print('z')
+                # print('z')
                 z = moves[i][j - 2]
 
             moves[i][j] = max(array[i] + min(x, y), array[j] + min(y, z))
-        [print(x) for x in moves]
+        # [print(x) for x in moves]
         print()
 
     return moves[0][len(array) - 1]
 
 
 array = [8, 15, 3, 7]
-# array = [3, 9, 1, 2]
+array = [3, 9, 1, 2]
 print(optimalSolution(array))
