@@ -21,8 +21,10 @@ def isWoven(one, two, three):
 
     for i in range(1, len(two) + 1):
         for j in range(1, len(one) + 1):
+
             if three[i + j - 1] == two[i - 1]:
                 dp[i][j] = True if dp[i - 1][j] else False
+
             if three[i + j - 1] == one[j - 1]:
                 dp[i][j] = True if dp[i][j - 1] else False
     # [print(x) for x in dp]
