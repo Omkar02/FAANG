@@ -28,7 +28,7 @@ def minLineText(textList, limit):
                 dp[i][j] = float('inf')
             else:
                 dp[i][j] = dp[i][j]**2
-    # [print(x)for x in dp]
+    [print(x)for x in dp]
 
     minCost = [0] * len(textList)
     result = [-1] * len(textList)
@@ -48,4 +48,6 @@ def minLineText(textList, limit):
 
 limit = 10
 textList = ['Tushar', 'Roy', 'Likes', 'To', 'Code']
+limit = 16
+textList = ["This", "is", "an", "example", "of", "text", "justification."]
 print(minLineText(textList, limit))

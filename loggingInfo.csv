@@ -107,3 +107,10 @@ G_21_HeapSort.py,2020-08-11,2020-08-11,02:16:59 PM,02:36:09 PM,19.0,Sorting,Hard
 G_22_TimeToTypeAString.py,2020-08-11,2020-08-11,03:43:30 PM,03:50:20 PM,6.0,String,Medium
 G_23_CountAndSay.py,2020-08-11,2020-08-11,07:53:53 PM,08:09:37 PM,15.0,String,Medium
 G_24_NumberOfWaysDecode.py,2020-08-11,2020-08-11,09:26:58 PM,09:43:57 PM,16.0,String,Medium
+G_25_LinkedListConstruction.py,2020-08-12,2020-08-12,12:47:58 PM,01:01:33 PM,13.0,Linked-List,Medium
+G_26_IsomorphicStrings.py,2020-08-12,2020-08-12,09:14:22 PM,09:56:41 PM,42.0,String,Medium
+G_27_LongestPalidromicSubstring.py,2020-08-13,2020-08-13,11:53:01 AM,12:09:26 PM,16.0,String,Medium
+G_28_GroupAnagram.py,2020-08-13,2020-08-13,12:20:07 PM,12:25:31 PM,5.0,String,Medium
+G_29_longestSubstringWithoutDuplicates.py,2020-08-13,2020-08-13,12:33:37 PM,12:46:44 PM,13.0,String,Medium
+G_30_UnderScorifyString.py,2020-08-13,2020-08-13,03:10:36 PM,03:39:54 PM,29.0,String,Hard
+G_31_bstConstruction.py,2020-08-14,2020-08-14,02:15:40 PM,02:42:34 PM,26.0,Tree,Medium
