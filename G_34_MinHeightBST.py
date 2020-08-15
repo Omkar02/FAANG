@@ -20,7 +20,7 @@ def minHeightBstHelper(arr, left, right, seq):
         return
     mid = (left + right) // 2
     seq.append(arr[mid])
-    print(arr[left], arr[mid], arr[right])
+    # print(arr[left], arr[mid], arr[right])
     minHeightBstHelper(arr, left, mid - 1, seq)
     minHeightBstHelper(arr, mid + 1, right, seq)
 

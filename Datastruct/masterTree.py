@@ -107,6 +107,11 @@ class BST():
 
 tree = BST()
 
+readyTree = BST()
+array = [6, 2, 1, 3, 5, 8, 7, 9, 10]
+for i in array:
+    readyTree.insert(i)
+
 
 class Anode():
     def __init__(self, data):
