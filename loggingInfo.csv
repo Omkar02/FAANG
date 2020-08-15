@@ -120,5 +120,6 @@ G_34_MinHeightBST.py,2020-08-14,2020-08-14,03:33:38 PM,03:47:59 PM,14.0,Tree,Med
 G_35_SameBST.py,2020-08-15,2020-08-15,10:01:18 AM,10:18:47 AM,17.0,Tree,Hard
 G_36_BranchSum.py,2020-08-15,2020-08-15,10:23:02 AM,10:37:04 AM,14.0,Tree,Easy
 G_37_NodeDepth.py,2020-08-15,2020-08-15,11:53:45 AM,12:06:10 PM,12.0,Tree,Easy
-G_38_InvertBinaryTree.py,2020-08-15,2020-08-15,12:07:28 PM,12:13:32 PM,6.0,Tree,Meduim
-G_39_MaxPathSumBinaryTree.py,2020-08-15,None,12:16:57 PM,None,None,Tree,Hard
+G_38_InvertBinaryTree.py,2020-08-15,2020-08-15,12:07:28 PM,12:13:32 PM,6.0,Tree,Medium
+G_39_MaxPathSumBinaryTree.py,2020-08-15,2020-08-15,09:03:53 PM,09:21:42 PM,17.0,Tree,Hard
+G_40_CheckIfTreeisBalanced.py,2020-08-15,2020-08-15,09:30:47 PM,09:45:13 PM,14.0,Tree,Easy
