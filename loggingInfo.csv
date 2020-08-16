@@ -123,3 +123,5 @@ G_37_NodeDepth.py,2020-08-15,2020-08-15,11:53:45 AM,12:06:10 PM,12.0,Tree,Easy
 G_38_InvertBinaryTree.py,2020-08-15,2020-08-15,12:07:28 PM,12:13:32 PM,6.0,Tree,Medium
 G_39_MaxPathSumBinaryTree.py,2020-08-15,2020-08-15,09:03:53 PM,09:21:42 PM,17.0,Tree,Hard
 G_40_CheckIfTreeisBalanced.py,2020-08-15,2020-08-15,09:30:47 PM,09:45:13 PM,14.0,Tree,Easy
+G_41_MorrisTraversalWithoutSpace.py,2020-08-16,2020-08-16,09:31:51 AM,10:05:35 AM,33.0,Tree,Hard
+G_42_MedianOfBST.py,2020-08-16,2020-08-16,10:39:47 AM,10:51:53 AM,12.0,Tree,Medium
