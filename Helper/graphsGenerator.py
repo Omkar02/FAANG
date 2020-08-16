@@ -39,15 +39,16 @@ pieChartDifficult.update_traces(textposition='inside', textinfo='percent+label')
 # pieChart.write_html("pieChart.html")
 
 # time series chart
-totalhours = df
-totalhours['DateTime'] = totalhours['EndDate'] + ' ' + totalhours['EndTime']
+# totalhours = df
+# totalhours['DateTime'] = totalhours['EndDate'] + ' ' + totalhours['EndTime']
 # print(totalhours)
+totalhours = df.groupby(["EndDate"], as_index=False)["Duration"].sum()
 
 
-TimeSeries = px.line(totalhours, x='DateTime', y='Duration', title='Total Time Series')
+TimeSeries = px.scatter(totalhours, x='EndDate', y='Duration', title='Total Time Series', range_x=[minRange, maxRange])
 TimeSeries.update_xaxes(
     rangeslider_visible=True,
-    showticklabels=False,
+    showticklabels=True,
     rangeselector=dict(
         buttons=list([
             dict(count=1, label="1m", step="month", stepmode="backward"),
