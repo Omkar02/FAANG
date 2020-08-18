@@ -132,3 +132,10 @@ G_46_DiagonalSumofaBinaryTree.py,2020-08-16,2020-08-16,10:05:50 PM,10:14:01 PM,8
 G_47_PrintLeftmostAndRightMostNodesofaBinaryTree.py,2020-08-17,2020-08-17,12:14:36 PM,12:29:18 PM,14.0,Tree,Medium
 G_48_NodesWithKleaves.py,2020-08-17,2020-08-17,12:45:02 PM,12:59:38 PM,14.0,Tree,Medium
 G_49_CommonAncesstor.py,2020-08-17,2020-08-17,09:15:39 PM,09:37:08 PM,21.0,Tree,Hard
+G_50_FindtheRotationCountInRotatedSortedArray.py,2020-08-18,2020-08-18,02:27:07 PM,02:36:17 PM,9.0,Searching,Medium
+G_51_MaxElementinBitonicArray.py,2020-08-18,2020-08-18,02:42:25 PM,03:08:30 PM,26.0,Searching,Medium
+G_52_FloorInASortedArray.py,2020-08-18,2020-08-18,03:15:01 PM,03:32:04 PM,17.0,Searching,Medium
+G_53_FindTheElementThatAppearsOnceInASortedArray.py,2020-08-18,2020-08-18,08:15:09 PM,08:35:40 PM,20.0,Searching,Medium
+G_54_TransitionPointInABinaryArray.py,2020-08-18,2020-08-18,08:45:44 PM,08:55:42 PM,9.0,Searching,Medium
+G_55_FindTheNumberOfZeroes.py,2020-08-18,2020-08-18,08:57:18 PM,09:17:04 PM,19.0,Searching,Medium
+G_56_SearchInSortedMatrix.py,2020-08-18,2020-08-18,09:22:30 PM,09:36:30 PM,14.0,Searching,Medium
