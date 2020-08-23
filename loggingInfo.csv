@@ -142,3 +142,10 @@ G_56_SearchInSortedMatrix.py,2020-08-18,2020-08-18,09:22:30 PM,09:36:30 PM,14.0,
 G_57_IndexOfAnExtraElement.py,2020-08-19,2020-08-19,09:32:55 PM,09:39:30 PM,6.0,Searching,Medium
 G_58_CountElementOfLessOrEqualTo.py,2020-08-19,2020-08-19,09:48:47 PM,10:05:45 PM,16.0,Searching,Medium
 G_59_SortAccordingToGivenDefinitation.py,2020-08-19,2020-08-19,10:13:03 PM,10:34:14 PM,21.0,Searching,Medium
+G_OA_01_AlphabetOrdering.py,2020-08-20,2020-08-20,11:47:23 AM,12:25:18 PM,37.0,String,Medium
+G_OA_02_MaximumSubarray.py,2020-08-20,2020-08-20,12:48:31 PM,12:53:43 PM,5.0,Array,Medium
+G_OA_03_KadensAlog.py,2020-08-21,2020-08-21,11:13:24 AM,11:22:50 AM,9.0,Array,Medium
+G_OA_04_DominoRotation.py,2020-08-21,2020-08-21,11:28:33 AM,11:40:55 AM,12.0,Array,Medium
+G_OA_05_SmallestDiff.py,2020-08-21,2020-08-21,11:48:29 AM,11:57:22 AM,8.0,Array,Medium
+G_OA_06_CanConvertStringinKMoves.py,2020-08-21,2020-08-21,11:59:26 AM,12:23:14 PM,23.0,Array,Medium
+G_OA_07_RemoveKElementToMin.py,2020-08-21,2020-08-21,12:27:50 PM,12:38:33 PM,10.0,Array,Medium
