@@ -28,6 +28,7 @@
 
 
 array = [-2, -3, 4, -1, -2, 1, 5, -3]
+array = [-2, 1]
 # print(kadensAlgo(array))
 
 
