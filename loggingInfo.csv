@@ -167,4 +167,5 @@ LC_1438_LongestContinuousSubarrayWithAbsoluteDiffLessThanorEqualtoLimit.py,2020-
 LC_1110_DeleteNodesAndReturnForest.py,2020-09-01,2020-09-01,11:21:02 AM,11:42:31 AM,21.0,Tree,Medium
 LC_846_HandofStraights.py,2020-09-01,2020-09-01,02:01:50 PM,02:26:39 PM,24.0,Array,Medium
 LC_659_SplitArrayintoConsecutiveSubsequences.py,2020-09-01,2020-09-01,07:07:36 PM,07:13:01 PM,5.0,Array,Medium
-LC_1423_MaximumPointsYouCanObtainfromCards.py,2020-09-01,None,07:33:35 PM,None,None,Array,Medium
+LC_1423_MaximumPointsYouCanObtainfromCards.py,2020-09-01,2020-09-01,07:33:35 PM,07:59:13 PM,25.0,Array,Medium
+LC_752_OpentheLock.py,2020-09-01,2020-09-01,09:11:00 PM,09:37:40 PM,26.0,Graph,Medium
