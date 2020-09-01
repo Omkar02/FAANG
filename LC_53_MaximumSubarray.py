@@ -1,9 +1,9 @@
-import __main__ as main
-from Helper.TimerLogger import CodeTimeLogging
-fileName = main.__file__
-fileName = fileName.split('\\')[-1]
+# import __main__ as main
+# from Helper.TimerLogger import CodeTimeLogging
+# fileName = main.__file__
+# fileName = fileName.split('\\')[-1]
 
-CodeTimeLogging(Flag='F', filename=fileName, Tag='Array', Difficult='Medium')
+# CodeTimeLogging(Flag='F', filename=fileName, Tag='Array', Difficult='Medium')
 
 
 def kadensAlgo(nums):
@@ -28,7 +28,7 @@ def kadensAlgo(nums):
             startIdx = tempIdx
 
         if currMax < 0:
-            tempIdx = i + tempIdx
+            tempIdx =
             currMax = 0
 
     return overAllMax  # nums[startIdx:endIdx + 1]

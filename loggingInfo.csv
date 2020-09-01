@@ -158,3 +158,13 @@ LC_1299_ReplaceElementswithGreatestElementonRight.py,2020-08-26,2020-08-26,06:00
 LC_896_MonotonicArray.py,2020-08-27,2020-08-27,10:48:22 AM,10:54:36 AM,6.0,Array,Easy
 LC_53_MaximumSubarray.py,2020-08-27,2020-08-27,10:55:28 AM,11:10:54 AM,15.0,Array,Medium
 LC_674_LongestContinuousIncreasingSubsequence.py,2020-08-27,2020-08-27,11:13:03 AM,11:21:12 AM,8.0,Array,Medium
+LC_1395_CountNumberofTeams.py,2020-08-27,2020-08-27,05:08:35 PM,05:46:02 PM,37.0,Array,Medium
+LC_388_LongestAbsoluteFilePath.py,2020-08-31,2020-08-31,11:05:29 AM,11:26:16 AM,20.0,String,Medium
+LC_681_NextClosestTime.py,2020-08-31,2020-08-31,04:57:26 PM,05:27:37 PM,30.0,String,Medium
+LC_809_ExpressiveWords.py,2020-08-31,2020-08-31,05:44:28 PM,06:03:23 PM,18.0,String,Medium
+LC_946_ValidateStackSequences.py,2020-08-31,2020-08-31,06:07:21 PM,06:12:04 PM,4.0,Array,Medium
+LC_1438_LongestContinuousSubarrayWithAbsoluteDiffLessThanorEqualtoLimit.py,2020-09-01,2020-09-01,11:02:05 AM,11:16:08 AM,14.0,Array,Medium
+LC_1110_DeleteNodesAndReturnForest.py,2020-09-01,2020-09-01,11:21:02 AM,11:42:31 AM,21.0,Tree,Medium
+LC_846_HandofStraights.py,2020-09-01,2020-09-01,02:01:50 PM,02:26:39 PM,24.0,Array,Medium
+LC_659_SplitArrayintoConsecutiveSubsequences.py,2020-09-01,2020-09-01,07:07:36 PM,07:13:01 PM,5.0,Array,Medium
+LC_1423_MaximumPointsYouCanObtainfromCards.py,2020-09-01,None,07:33:35 PM,None,None,Array,Medium

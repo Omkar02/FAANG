@@ -185,6 +185,8 @@ class AVL():
 
     # return self._calHeight(node.left) - self._calHeight(node.right)
     def _insVoilation(self, data, node):
+        if not node:
+            return
         balance = self._calBalance(node)
         # print(f'{balance}------------------{data}')
         # case LL

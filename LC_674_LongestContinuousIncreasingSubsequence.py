@@ -16,12 +16,12 @@ def findLengthOfLCIS(nums):
 
     currLen = 1
 
-    for i in range(1, n):
-        print(currLen, maxLen)
+    for i in range(n):
+        # print(currLen, maxLen)
         if nums[i - 1] < nums[i]:
             currLen += 1
 
-        else:
+        elif nums[i - 1] > nums[i]:
             tempIdx = i
             currLen -= 1
 
@@ -36,4 +36,5 @@ def findLengthOfLCIS(nums):
 
 nums = [1, 3, 5, 4, 7]
 nums = [2, 2, 2, 2, 2]
+nums = [1, 2, 3, 4, 10, 6, 7]
 print(findLengthOfLCIS(nums))
