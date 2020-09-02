@@ -18,6 +18,7 @@ integers denoting the elements of the array. The last line of each test case con
 Output:
 For each test case ouptut a single line denoting the sum of the length of all such subarrays.
 '''
+arr = [3, 2, 2, 4, 3]
 
 
 def SumOfLengts(array, k):
@@ -53,6 +54,9 @@ def getAllKpos(array, k):
 
 array = [2, 1, 4, 9, 2, 3, 8, 3, 4]
 # array = [4, 5, 7, 1, 2, 9, 8, 4, 3, 1]
+array = [4, 3, 2, 6, 2, 3, 4]
+array = [3, 2, 2, 4, 3]
+
 k = 2
 
 print(SumOfLengts(array, k))

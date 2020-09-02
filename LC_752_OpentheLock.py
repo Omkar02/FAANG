@@ -1,9 +1,9 @@
-import __main__ as main
-from Helper.TimerLogger import CodeTimeLogging
-fileName = main.__file__
-fileName = fileName.split('\\')[-1]
+# import __main__ as main
+# from Helper.TimerLogger import CodeTimeLogging
+# fileName = main.__file__
+# fileName = fileName.split('\\')[-1]
 
-CodeTimeLogging(Flag='F', filename=fileName, Tag='Graph', Difficult='Medium')
+# CodeTimeLogging(Flag='F', filename=fileName, Tag='Graph', Difficult='Medium')
 
 
 # start = list('00000')
@@ -25,6 +25,8 @@ cntq = [0]
 def openLock(deadends, target):
     q = [(0, '0000')]
     deadends = set(deadends)
+    start = ['0000']
+    visited = set(start)
 
     if target == '0000':
         return -1
