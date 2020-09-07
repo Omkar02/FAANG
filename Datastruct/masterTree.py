@@ -113,21 +113,21 @@ for i in array:
     readyTree.insert(i)
 
 
-class Anode():
+class aNode():
     def __init__(self, data):
         self.data = data
-        self.right = None
-        self.left = None
+        self.lChild = None
+        self.rChild = None
 
         self.height = 0
+
+
+val = []
 
 
 class AVL():
     def __init__(self):
         self.root = None
-
-    def getRoot(self):
-        return self.root
 
     def _calHeight(self, node):
         if not node:
@@ -137,81 +137,169 @@ class AVL():
     def _calBalance(self, node):
         if not node:
             return 0
-        return self._calHeight(node.left) - self._calHeight(node.right)
+        return self._calHeight(node.lChild) - self._calHeight(node.rChild)
 
     def _rotateRight(self, node):
-        # print(f'Rotating {node.data} to right!')
-        templeftChild = node.left
-        t = templeftChild.right
+        print(f'Rotating node {node.data} to right!')
+        templeftChild = node.lChild
+        t = templeftChild.rChild
 
-        templeftChild.right = node
-        node.left = t
+        templeftChild.rChild = node
+        node.lChild = t
 
-        node.height = max(self._calHeight(node.left), self._calHeight(node.right)) + 1
-        templeftChild.height = max(self._calHeight(templeftChild.left), self._calHeight(templeftChild.right)) + 1
+        node.height = max(self._calHeight(node.lChild), self._calHeight(node.rChild)) + 1
+        templeftChild.height = max(self._calHeight(templeftChild.lChild), self._calHeight(templeftChild.rChild)) + 1
 
         return templeftChild
 
     def _rotateLeft(self, node):
-        # print(f'Rotating node {node.data} to left!')
-        tempRightChild = node.right
-        t = tempRightChild.left
+        print(f'Rotating node {node.data} to left!')
+        tempRightChild = node.rChild
+        t = tempRightChild.lChild
 
-        tempRightChild.left = node
-        node.right = t
+        tempRightChild.lChild = node
+        node.rChild = t
 
-        node.height = max(self._calHeight(node.left), self._calHeight(node.right)) + 1
-        tempRightChild.height = max(self._calHeight(tempRightChild.left), self._calHeight(tempRightChild.right)) + 1
+        node.height = max(self._calHeight(node.lChild), self._calHeight(node.rChild)) + 1
+        tempRightChild.height = max(self._calHeight(tempRightChild.lChild), self._calHeight(tempRightChild.rChild)) + 1
 
         return tempRightChild
 
     def iAvl(self, data):
-        self.root = self._insertAvl(data, self.root)
+        self.root = self._insertA(data, self.root)
 
-    def _insertAvl(self, data, node):
+    def _insertA(self, data, node):
         if not node:
-            return Anode(data)
-
+            return aNode(data)
         if data < node.data:
-            node.left = self._insertAvl(data, node.left)
-
+            node.lChild = self._insertA(data, node.lChild)
         if data > node.data:
-            node.right = self._insertAvl(data, node.right)
+            node.rChild = self._insertA(data, node.rChild)
 
-        node.height = max(self._calHeight(node.left), self._calHeight(node.right)) + 1
-
+        node.height = max(self._calHeight(node.lChild), self._calHeight(node.rChild)) + 1
+        return self._checkViolation(data, node)
         # return node
-        return self._insVoilation(data, node)
 
-    # return self._calHeight(node.left) - self._calHeight(node.right)
-    def _insVoilation(self, data, node):
-        if not node:
-            return
+    def _checkViolation(self, data, node):
         balance = self._calBalance(node)
-        # print(f'{balance}------------------{data}')
-        # case LL
-        if balance > 1 and node.left.data > data:
-            # print('LL!')
+
+        # case1: it is a left-left heavy situation
+        if balance > 1 and data < node.lChild.data:
+            print('left-left heavy situation | Rotating right..')
             return self._rotateRight(node)
-        # case LR
-        if balance > 1 and node.left.data < data:
-            # print('LR')
-            node.left = self._rotateLeft(node)
-            return self._rotateRight(node)
-        # case RR
-        if balance < -1 and node.right.data < data:
-            # print('RR')
+
+        # case2: it is a right right heavy situation
+        if balance < -1 and data > node.rChild.data:
+            print('right-right heavy situation | Rotating left')
             return self._rotateLeft(node)
-        # case RL
-        if balance < -1 and node.right.data > data:
-            # print('RL')
-            node.right = self._rotateRight(node.right)
+
+        # case3: it is a left right heavy situation
+        if balance > 1 and data > node.lChild.data:
+            print('left-right heavy situation | Rotating left-right')
+            node.lChild = self._rotateLeft(node.lChild)
+            return self._rotateRight(node)
+
+        # case4: it is a right left heavy situation
+        if balance < -1 and data < node.rChild.data:
+            print('right left heavy situation | Rotating right-left')
+            node.rChild = self._rotateRight(node.rChild)
             return self._rotateLeft(node)
 
         return node
 
-    def trav(self):
-        self._traverceAVL(self.root)
+    def _removeViolation(self, node):
+        if not node:
+            return node
+
+        node.height = max(self._calHeight(node.lChild), self._calHeight(node.rChild)) + 1
+        balance = self._calBalance(node)
+
+        # case1: it is a left-left heavy situation
+        if balance > 1 and self._calBalance(node.lChild) >= 0:
+            print('left-left heavy situation | Rotating right..')
+            return self._rotateRight(node)
+
+        # case2: it is a right right heavy situation
+        if balance < -1 and self._calBalance(node.rChild) <= 0:
+            print('right-right heavy situation | Rotating left')
+            return self._rotateLeft(node)
+
+        # case3: it is a left right heavy situation
+        if balance > 1 and self._calBalance(node.lChild) < 0:
+            print('left-right heavy situation | Rotating left-right')
+            node.lChild = self._rotateLeft(node.lChild)
+            return self._rotateRight(node)
+
+        # case4: it is a right left heavy situation
+        if balance < -1 and self._calBalance(node.rChild) > 0:
+            print('right left heavy situation | Rotating right-left')
+            node.rChild = self._rotateRight(node.rChild)
+            return self._rotateLeft(node)
+
+        return node
+
+    def remove(self, data):
+        if self.root:
+            self.root = self._removeNode(data, self.root)
+
+    def _removeNode(self, data, node):
+        if not node:
+            return node
+
+        if data < node.data:
+            node.lChild = self._removeNode(data, node.lChild)
+
+        elif data > node.data:
+            node.rChild = self._removeNode(data, node.rChild)
+
+        else:
+            if not node.lChild and not node.rChild:
+                print('Deleting Leaf node!')
+                del node
+                return None
+
+            if not node.lChild:
+                print('Deleting right child!')
+                tempnode = node.rChild
+                del node
+                return tempnode
+
+            if not node.rChild:
+                print('Deleting left child!')
+                tempnode = node.lChild
+                del node
+                return tempnode
+
+            print('Deleting node with Two  child!')
+            print(node.lChild.data)
+            tempnode = self._getPredsessor(node.lChild)
+            # print(tempnode,'============')
+            node.data = tempnode.data
+            node.lChild = self._removeNode(tempnode.data, node.lChild)
+
+        # if not node:
+
+        return self._removeViolation(node)  # MAGIC
+        # return node
+
+    def _getPredsessor(self, node):
+        if node.rChild:
+            return self._getPredsessor(node.rChild)
+        return node
+
+    def traverse(self):
+        if self.root:
+            self._traInter(self.root)
+
+    def _traInter(self, node):
+        if node.lChild:
+            self._traInter(node.lChild)
+
+        # print(node.data)
+        val.append(node.data)
+
+        if node.rChild:
+            self._traInter(node.rChild)
 
     def printTree(self):
         try:
@@ -222,18 +310,10 @@ class AVL():
         except Exception as e:
             pass
 
-    def _traverceAVL(self, node):
-        if node.left:
-            self._traverceAVL(node.left)
-        print(node.data, '-------')
-
-        if node.right:
-            self._traverceAVL(node.right)
-
     def _display_aux(self, node):
         """Returns list of strings, width, height, and horizontal coordinate of the root."""
         # No child.
-        if node.right is None and node.left is None:
+        if node.rChild is None and node.lChild is None:
             line = '%s' % node.data
             width = len(line)
             height = 1
@@ -241,8 +321,8 @@ class AVL():
             return [line], width, height, middle
 
         # Only left child.
-        if node.right is None:
-            lines, n, p, x = self._display_aux(node.left)
+        if node.rChild is None:
+            lines, n, p, x = self._display_aux(node.lChild)
             s = '%s' % node.data
             u = len(s)
             first_line = (x + 1) * ' ' + (n - x - 1) * '_' + s
@@ -251,8 +331,8 @@ class AVL():
             return [first_line, second_line] + shifted_lines, n + u, p + 2, n + u // 2
 
         # Only right child.
-        if node.left is None:
-            lines, n, p, x = self._display_aux(node.right)
+        if node.lChild is None:
+            lines, n, p, x = self._display_aux(node.rChild)
             s = '%s' % node.data
             u = len(s)
             first_line = s + x * '_' + (n - x) * ' '
@@ -261,8 +341,8 @@ class AVL():
             return [first_line, second_line] + shifted_lines, n + u, p + 2, u // 2
 
         # Two children.
-        left, n, p, x = self._display_aux(node.left)
-        right, m, q, y = self._display_aux(node.right)
+        left, n, p, x = self._display_aux(node.lChild)
+        right, m, q, y = self._display_aux(node.rChild)
         s = '%s' % node.data
         u = len(s)
         first_line = (x + 1) * ' ' + (n - x - 1) * '_' + s + y * '_' + (m - y) * ' '
@@ -275,25 +355,13 @@ class AVL():
         lines = [first_line, second_line] + [a + u * ' ' + b for a, b in zipped_lines]
         return lines, n + m + u, max(p, q) + 2, n + u // 2
 
-    def finder(self, data):
-        val = self._findData(data, self.root)
-        print(f'Found :  {val}')
-
-    def _findData(self, data, node):
-
-        if not node:
-            return None
-        else:
-            print(f'Visited --> {node.data}')
-
-        if node.data == data:
-            return node.data
-
-        if data < node.data:
-            return self._findData(data, node.left)
-
-        elif data > node.data:
-            return self._findData(data, node.right)
-
 
 avl = AVL()
+
+
+# array = [21, 26, 30, 9, 4, 14, 28]
+# for i in array:
+#     avl.iAvl(i)
+
+
+avl.printTree()

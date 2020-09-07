@@ -18,7 +18,7 @@ def meetingRoomReq(intervals):
 
         else:
             heapq.heappush(heap, interval[1])
-    print(heap)
+
     return len(heap)
 
 

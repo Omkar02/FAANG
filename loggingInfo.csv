@@ -177,3 +177,8 @@ LC_1031_MaximumSumofTwoNon-OverlappingSubarrays.py,2020-09-03,2020-09-03,09:22:2
 LC_394_DecodeString.py,2020-09-06,2020-09-06,05:06:51 PM,05:22:16 PM,15.0,String,Medium
 LC_444_SequenceReconstruction.py,2020-09-06,2020-09-06,05:46:07 PM,06:04:51 PM,18.0,Graph,Medium
 LC_253_MeetingRoom2.py,2020-09-06,2020-09-06,09:26:46 PM,09:40:23 PM,13.0,Heap,Medium
+LC_562_LongestLineofConsecutiveOneinMatrix.py,2020-09-07,2020-09-07,09:30:55 AM,09:55:47 AM,24.0,Matrix,Medium
+LC_418_SentenceScreenFitting.py,2020-09-07,2020-09-07,10:40:08 AM,11:10:01 AM,29.0,String,Medium
+LC_1466_ReorderRoutestoMakeAllPathsLeadtotheCityZero.py,2020-09-07,2020-09-07,12:31:03 PM,12:37:22 PM,6.0,Graph,Medium
+LC_221_MaximalSquare.py,2020-09-07,2020-09-07,09:15:35 PM,09:30:48 PM,15.0,Matrix,Medium
+LC_1197_MinimumKnightMoves.py,2020-09-07,2020-09-07,09:54:12 PM,10:11:43 PM,17.0,Graph,Medium
