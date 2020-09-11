@@ -1,9 +1,9 @@
-import __main__ as main
-from Helper.TimerLogger import CodeTimeLogging
-fileName = main.__file__
-fileName = fileName.split('\\')[-1]
+# import __main__ as main
+# from Helper.TimerLogger import CodeTimeLogging
+# fileName = main.__file__
+# fileName = fileName.split('\\')[-1]
 
-CodeTimeLogging(Flag='F', filename=fileName, Tag='Linked-List', Difficult='Hard')
+# CodeTimeLogging(Flag='F', filename=fileName, Tag='Linked-List', Difficult='Hard')
 
 from Datastruct.masterLinkedList import l
 

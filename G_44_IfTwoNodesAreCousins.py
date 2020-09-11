@@ -36,7 +36,9 @@ def getHeight(val, node, depth):
 
 def getParent(root, a, b):
     if not root:
-        return
+        return False
+    if root.lChild and root.rChild:
+        print(root.lChild.data == a, root.rChild.data == b, root.lChild.data == b, root.rChild.data == a)
     return ((root.lChild == a and root.rChild == b) or
             (root.lChild == b and root.rChild == a) or
             getParent(root.lChild, a, b) or
@@ -44,5 +46,5 @@ def getParent(root, a, b):
 
 
 nodeOne = 3
-nodeTwo = 7
+nodeTwo = 1
 print(f'Is Cousin = {isCousin(nodeOne,nodeTwo,readyTree.getHead())}')
