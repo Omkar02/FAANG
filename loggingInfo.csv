@@ -187,3 +187,7 @@ LC_21_MergeTwoSortedLists.py,2020-09-10,2020-09-10,10:46:13 AM,11:00:38 AM,14.0,
 LC_202_HappyNumber.py,2020-09-10,2020-09-10,11:58:06 AM,12:03:51 PM,5.0,String,Easy
 LC_206_ReverseLinkedList.py,2020-09-10,2020-09-10,12:05:09 PM,12:13:48 PM,8.0,Linked-List,Easy
 LC_993_CousinsinBinaryTree.py,2020-09-11,2020-09-11,09:22:14 PM,09:50:50 PM,28.0,Tree,Medium
+LC_703_KthLargestElementinaStream.py,2020-09-12,2020-09-12,10:34:45 AM,10:46:42 AM,11.0,Heap,Medium
+LC_204_CountPrimes.py,2020-09-12,2020-09-12,10:58:51 AM,11:09:08 AM,10.0,Math,Medium
+LC_1365_HowManyNumbersAreSmallerThantheCurrentNumber.py,2020-09-12,2020-09-12,11:16:55 AM,11:26:55 AM,10.0,Array,Medium
+LC_110_BalancedBinaryTree.py,2020-09-12,2020-09-12,11:34:42 AM,11:55:58 AM,21.0,Tree,Medium
