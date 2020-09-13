@@ -364,4 +364,4 @@ avl = AVL()
 #     avl.iAvl(i)
 
 
-avl.printTree()
+# avl.printTree()
