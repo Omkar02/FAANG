@@ -196,3 +196,5 @@ LC_83_RemoveDuplicatesfromSortedList.py,2020-09-13,2020-09-13,11:09:37 AM,11:19:
 LC_112_PathSum.py,2020-09-13,2020-09-13,11:30:02 AM,11:40:30 AM,10.0,Tree,Medium
 LC_543_DiameterofBinaryTree.py,2020-09-13,2020-09-13,11:56:36 AM,12:12:19 PM,15.0,Tree,Medium
 LC_237_DeleteNodeinaLinkedList.py,2020-09-13,2020-09-13,12:13:19 PM,12:21:38 PM,8.0,Linked-List,Medium
+LC_35_SearchInsertPosition.py,2020-09-13,2020-09-13,04:47:07 PM,05:05:46 PM,18.0,Array,Medium
+LC_234_PalindromeLinkedList.py,2020-09-13,2020-09-13,05:20:04 PM,05:36:25 PM,16.0,Linked-List,Medium

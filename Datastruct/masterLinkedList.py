@@ -14,6 +14,9 @@ class LinkedList(object):
     def getHead(self):
         return self.head
 
+    def getTail(self):
+        return self.curr
+
     def insertLoop(self):
         # print(self.curr.data, self.dataFour.data)
         self.curr.nextNode = self.dataFour
