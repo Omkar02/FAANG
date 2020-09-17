@@ -210,3 +210,5 @@ AZ_MaxCountNonOverlappingSubarraySumK.py,2020-09-15,2020-09-15,10:55:04 AM,11:08
 AZ_1_TwoSum.py,2020-09-16,2020-09-16,09:20:39 AM,09:30:44 AM,10.0,Array,Easy
 AZ_4_MedianofTwoSortedArrays.py,2020-09-16,2020-09-16,09:35:46 AM,09:50:50 AM,15.0,Array,Easy
 AZ_5_LongestPalindromicSubstring.py,2020-09-16,2020-09-16,10:17:45 AM,10:27:21 AM,9.0,Array,Easy
+AZ_12_IntegertoRoman.py,2020-09-16,2020-09-16,10:36:32 AM,10:50:04 AM,13.0,String,Medium
+AZ_8_StringtoIntegerAtoi.py,2020-09-16,2020-09-16,10:57:46 AM,11:06:28 AM,8.0,String,Medium

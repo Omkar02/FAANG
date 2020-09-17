@@ -7,18 +7,19 @@
 
 
 def longestPalindrome(s):
-    currLongest = [0, 1]
+    lonest = [0, 1]
     n = len(s)
     for i in range(1, n):
         odd = getPali(s, i - 1, i + 1)
         even = getPali(s, i - 1, i)
 
-        longest = max(odd, even, key=lambda x: x[1] - x[0])
-        currLongest = max(currLongest, longest, key=lambda x: x[1] - x[0])
-    return currLongest, s[currLongest[0]:currLongest[1]]
+        currLong = max(odd, even, key=lambda x: x[1] - x[0])
+        lonest = max(currLong, lonest, key=lambda x: x[1] - x[0])
+
+    return lonest, s[lonest[0]:lonest[1]]
 
 
-def getPali(string, l, r):
+def getPali(s, l, r):
     while l > 0 and r < len(s):
         if s[l] != s[r]:
             break
@@ -28,4 +29,5 @@ def getPali(string, l, r):
 
 
 s = "babad"
+s = "cbbd"
 print(longestPalindrome(s))

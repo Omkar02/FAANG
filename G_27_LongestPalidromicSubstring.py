@@ -34,5 +34,6 @@ def getPali(string, left, right):
 
 
 string = 'abaxyzzyxf'
+string = "babad"
 
 print(longestPaliSubstring(string))
