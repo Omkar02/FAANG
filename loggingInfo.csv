@@ -212,3 +212,10 @@ AZ_4_MedianofTwoSortedArrays.py,2020-09-16,2020-09-16,09:35:46 AM,09:50:50 AM,15
 AZ_5_LongestPalindromicSubstring.py,2020-09-16,2020-09-16,10:17:45 AM,10:27:21 AM,9.0,Array,Easy
 AZ_12_IntegertoRoman.py,2020-09-16,2020-09-16,10:36:32 AM,10:50:04 AM,13.0,String,Medium
 AZ_8_StringtoIntegerAtoi.py,2020-09-16,2020-09-16,10:57:46 AM,11:06:28 AM,8.0,String,Medium
+AZ_20_ValidParentheses.py,2020-09-17,2020-09-17,09:03:18 AM,09:08:54 AM,5.0,Array,Medium
+AZ_23_MergekSortedLists.py,2020-09-17,2020-09-17,10:02:49 AM,10:15:00 AM,12.0,Linked-List,Medium
+AZ_36_ValidSudoku.py,2020-09-17,2020-09-17,10:49:11 AM,11:01:10 AM,11.0,Matrix,Medium
+AZ_40_CombinationSumII.py,2020-09-17,2020-09-17,11:21:04 AM,11:36:15 AM,15.0,Array,Medium
+AZ_46_Permutations.py,2020-09-17,2020-09-17,11:48:57 AM,11:55:15 AM,6.0,Array,Medium
+AZ_56_MergeIntervals.py,2020-09-17,2020-09-17,12:17:51 PM,12:36:18 PM,18.0,Array,Medium
+AZ_61_RotateList.py,2020-09-17,2020-09-17,09:20:59 PM,09:33:03 PM,12.0,Linked-List,Medium

@@ -67,6 +67,8 @@ class LinkedList(object):
 
 l = LinkedList()
 r = LinkedList()
+v = LinkedList()
+m = LinkedList()
 # print(list(range(10)))
 # for i in list(range(10)):
 #     l.insertStart(i)
