@@ -11,7 +11,7 @@ cnt = [0]
 def exist(board, word):
     t = tries()
     t.addWords(word)
-
+    t.printTries()
     visited = [[False for x in row] for row in board]
     result = {word: False}
     for i in range(len(board)):
