@@ -219,3 +219,7 @@ AZ_40_CombinationSumII.py,2020-09-17,2020-09-17,11:21:04 AM,11:36:15 AM,15.0,Arr
 AZ_46_Permutations.py,2020-09-17,2020-09-17,11:48:57 AM,11:55:15 AM,6.0,Array,Medium
 AZ_56_MergeIntervals.py,2020-09-17,2020-09-17,12:17:51 PM,12:36:18 PM,18.0,Array,Medium
 AZ_61_RotateList.py,2020-09-17,2020-09-17,09:20:59 PM,09:33:03 PM,12.0,Linked-List,Medium
+AZ_64_MinimumPathSum.py,2020-09-18,2020-09-18,09:17:14 AM,09:25:18 AM,8.0,Matrix,Medium
+AZ_79_WordSearch.py,2020-09-18,2020-09-18,09:44:36 AM,10:12:34 AM,27.0,Matrix,Medium
+AZ_98_ValidateBinarySearchTree.py,2020-09-18,2020-09-18,10:46:29 AM,10:55:24 AM,8.0,Tree,Medium
+AZ_100_SameTree.py,2020-09-18,2020-09-18,11:21:20 AM,11:26:48 AM,5.0,Tree,Medium
