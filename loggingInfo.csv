@@ -229,3 +229,5 @@ AZ_109_ConvertSortedListtoBinarySearchTree.py,2020-09-18,2020-09-18,05:59:25 PM,
 AZ_116_PopulatingNextRightPointersinEachNode.py,2020-09-18,2020-09-18,06:32:18 PM,06:36:40 PM,4.0,Tree,Medium
 AZ_121_BestTimetoBuyandSellStock.py,2020-09-19,2020-09-19,10:27:45 AM,10:33:48 AM,6.0,Array,Medium
 AZ_127_WordLadder.py,2020-09-19,2020-09-19,10:51:10 AM,11:13:48 AM,22.0,Graphs,Medium
+AZ_146_LRUCache.py,2020-09-19,2020-09-19,05:40:12 PM,06:01:03 PM,20.0,Linked-List,Medium
+AZ_155_MinStack.py,2020-09-19,2020-09-19,09:24:50 PM,09:34:37 PM,9.0,Array,Medium
