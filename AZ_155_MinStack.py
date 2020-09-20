@@ -1,9 +1,9 @@
-import __main__ as main
-from Helper.TimerLogger import CodeTimeLogging
-fileName = main.__file__
-fileName = fileName.split('\\')[-1]
+# import __main__ as main
+# from Helper.TimerLogger import CodeTimeLogging
+# fileName = main.__file__
+# fileName = fileName.split('\\')[-1]
 
-CodeTimeLogging(Flag='F', filename=fileName, Tag='Array', Difficult='Medium')
+# CodeTimeLogging(Flag='F', filename=fileName, Tag='Array', Difficult='Medium')
 
 
 class minStack:
@@ -39,11 +39,10 @@ class minStack:
 arr = [6, 5, 4, 3, 2, 1]
 S = minStack()
 
-for i in arr:
-    S.push(i)
-    print(S.stack, '|', S.minStack)
-
+# for i in arr:
+#     S.push(i)
+#     print(S.stack, '|', S.minStack)
 # print()
-for i in arr:
-    S.pop()
-    print(S.stack, '|', S.minStack)
+# for i in arr:
+#     S.pop()
+#     print(S.stack, '|', S.minStack)
