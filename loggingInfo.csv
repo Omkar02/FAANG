@@ -242,5 +242,5 @@ AZ_300_LongestIncreasingSubsequence.py,2020-09-21,2020-09-21,09:57:35 AM,10:05:4
 AZ_543_DiameterofBinaryTree.py,2020-09-21,2020-09-21,10:07:05 AM,10:13:50 AM,6.0,Tree,Easy
 AZ_767_ReorganizeString.py,2020-09-21,2020-09-21,10:18:34 AM,10:30:57 AM,12.0,Heap,Medium
 AZ_417_PacificAtlanticWaterFlow.py,2020-09-21,2020-09-21,08:57:34 PM,09:13:27 PM,15.0,Graphs,Medium
-AZ_529_Minesweeper.py,2020-09-21,None,09:33:18 PM,None,None,Graphs,Medium
+AZ_529_Minesweeper.py,2020-09-21,2020-09-21,09:33:18 PM,09:53:18 PM,20.0,Graphs,Medium
 AZ_105_ConstructBinaryTreefromPreorderandInorderTraversal.py,2020-09-21,2020-09-21,09:44:10 PM,10:04:35 PM,20.0,Tree,Medium

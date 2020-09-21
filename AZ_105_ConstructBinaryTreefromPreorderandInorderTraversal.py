@@ -38,13 +38,13 @@ class Solution:
             root.lChild = self.helper(preorder, inorder, leftPointer, idx, idxmap)
             root.rChild = self.helper(preorder, inorder, idx + 1, rightPointer, idxmap)
 
-            if root:
-                print(f'R = {root.data}')
-            if root.lChild:
-                print(f'\t\tL = {root.lChild.data}')
-            if root.rChild:
-                print(f'\tR = {root.rChild.data}')
-            print()
+            # if root:
+            #     print(f'R = {root.data}')
+            # if root.lChild:
+            #     print(f'\t\tL = {root.lChild.data}')
+            # if root.rChild:
+            #     print(f'\tR = {root.rChild.data}')
+            # print()
             return root
 
 

@@ -1,9 +1,10 @@
-# import __main__ as main
-# from Helper.TimerLogger import CodeTimeLogging
-# fileName = main.__file__
-# fileName = fileName.split('\\')[-1]
+import __main__ as main
+from Helper.TimerLogger import CodeTimeLogging
+fileName = main.__file__
+fileName = fileName.split('\\')[-1]
 
-# CodeTimeLogging(Flag='S', filename=fileName, Tag='Graphs', Difficult='Medium')
+CodeTimeLogging(Flag='F', filename=fileName, Tag='Graphs', Difficult='Medium')
+
 
 def updateBoard(board, click):
     ## RC ##
