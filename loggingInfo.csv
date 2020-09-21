@@ -233,3 +233,14 @@ AZ_146_LRUCache.py,2020-09-19,2020-09-19,05:40:12 PM,06:01:03 PM,20.0,Linked-Lis
 AZ_155_MinStack.py,2020-09-19,2020-09-19,09:24:50 PM,09:34:37 PM,9.0,Array,Medium
 AZ_200_NumberofIslands.py,2020-09-20,2020-09-20,11:18:47 AM,11:33:30 AM,14.0,Graphs,Medium
 AZ_207_CourseSchedule.py,2020-09-20,2020-09-20,11:53:02 AM,12:24:33 PM,31.0,Graphs,Medium
+AZ_211_DesignAddandSearchWordsDataStructure.py,2020-09-20,2020-09-20,05:47:00 PM,06:12:11 PM,25.0,Graphs,Medium
+AZ_212_WordSearchII.py,2020-09-20,2020-09-20,06:33:22 PM,06:45:14 PM,11.0,Tries,Medium
+AZ_273_IntegertoEnglishWords.py,2020-09-20,2020-09-20,09:24:22 PM,09:39:06 PM,14.0,String,Hard
+AZ_289_GameofLife.py,2020-09-21,2020-09-21,09:15:50 AM,09:30:34 AM,14.0,Graphs,Medium
+AZ_295_FindMedianfromDataStream.py,2020-09-21,2020-09-21,09:34:24 AM,09:44:52 AM,10.0,Heap,Hard
+AZ_300_LongestIncreasingSubsequence.py,2020-09-21,2020-09-21,09:57:35 AM,10:05:45 AM,8.0,Dynamic-Programing,Medium
+AZ_543_DiameterofBinaryTree.py,2020-09-21,2020-09-21,10:07:05 AM,10:13:50 AM,6.0,Tree,Easy
+AZ_767_ReorganizeString.py,2020-09-21,2020-09-21,10:18:34 AM,10:30:57 AM,12.0,Heap,Medium
+AZ_417_PacificAtlanticWaterFlow.py,2020-09-21,2020-09-21,08:57:34 PM,09:13:27 PM,15.0,Graphs,Medium
+AZ_529_Minesweeper.py,2020-09-21,None,09:33:18 PM,None,None,Graphs,Medium
+AZ_105_ConstructBinaryTreefromPreorderandInorderTraversal.py,2020-09-21,2020-09-21,09:44:10 PM,10:04:35 PM,20.0,Tree,Medium

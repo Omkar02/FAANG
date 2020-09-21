@@ -29,6 +29,7 @@ class jobGraphs:
         jobNode.prereqs.append(jobPrereq)
 
 
+# Main
 def topologicalSort(jobs, dependency):
     graphs = createJobGraphs(jobs, dependency)
     return getOrderedJob(graphs)
@@ -55,6 +56,7 @@ def getOrderedJob(graphs):
 def depthFirstTraverse(node, orderedJob):
     if node.visited:
         return False
+
     if node.processing:
         return True
 
@@ -63,7 +65,7 @@ def depthFirstTraverse(node, orderedJob):
     for prereq in node.prereqs:
         containsCycle = depthFirstTraverse(prereq, orderedJob)
         if containsCycle:
-            return False
+            return False, orderedJob
 
     node.visited = True
     node.processing = False
@@ -72,6 +74,7 @@ def depthFirstTraverse(node, orderedJob):
 
 node = [0, 1]
 dependency = [[1, 0]]
-# node = [0, 1, 2, 3]
-# dependency = [[1, 0], [2, 0], [3, 1], [3, 2]]
+
+node = [0, 1, 2, 3]
+dependency = [[1, 0], [2, 0], [3, 1], [3, 2]]
 print(f'the Order = {topologicalSort(node, dependency)}')

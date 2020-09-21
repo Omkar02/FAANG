@@ -1,16 +1,16 @@
-import __main__ as main
-from Helper.TimerLogger import CodeTimeLogging
-fileName = main.__file__
-fileName = fileName.split('\\')[-1]
+# import __main__ as main
+# from Helper.TimerLogger import CodeTimeLogging
+# fileName = main.__file__
+# fileName = fileName.split('\\')[-1]
 
-CodeTimeLogging(Flag='F', filename=fileName, Tag='Heap', Difficult='Hard')
+# CodeTimeLogging(Flag='F', filename=fileName, Tag='Heap', Difficult='Hard')
 
 
 import heapq
 
 
-def __lt__(self, other):
-    return one[0] < other[0]
+# def __lt__(self, other):
+#     return one[0] < other[0]
 
 
 def reorganizeString(string):
