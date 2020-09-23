@@ -49,4 +49,6 @@ class Solution:
 
 
 s = Solution()
-print(s.buildTree(preorder, inorder))
+# print(s.buildTree(preorder, inorder))
+
+print(preorder[::-1])
