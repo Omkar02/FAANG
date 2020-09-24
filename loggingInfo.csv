@@ -254,7 +254,7 @@ AZ_IB_LongestIncreasingSubsequence.py,2020-09-24,2020-09-24,09:39:38 AM,09:47:42
 AZ_IB_UniqueBinarySearchTrees.py,2020-09-24,2020-09-24,09:57:23 AM,10:08:55 AM,11.0,Dynamic-Programing,Medium
 AZ_IB_MaxProductSubarray.py,2020-09-24,2020-09-24,10:09:36 AM,10:13:26 AM,3.0,Dynamic-Programing,Medium
 AZ_IB_WaystoDecode.py,2020-09-24,2020-09-24,10:29:52 AM,10:39:06 AM,9.0,Dynamic-Programing,Medium
-AZ_IB_MaxProfitWithKTransaction.py,2020-09-24,None,11:19:14 AM,None,None,Dynamic-Programing,Hard
+AZ_IB_MaxProfitWithKTransaction.py,2020-09-24,2020-09-24,11:19:14 AM,11:34:43 PM,15.0,Dynamic-Programing,Hard
 AZ_IB_MaxSumPathinBinaryTree.py,2020-09-24,2020-09-24,12:26:03 PM,12:33:39 PM,7.0,Tree,Hard
 AZ_IB_PalindromePartitioning.py,2020-09-24,2020-09-24,12:41:09 PM,12:53:24 PM,12.0,Dynamic-Programing,Hard
 AZ_IB_MinCostPath.py,2020-09-24,2020-09-24,01:05:04 PM,01:19:36 PM,14.0,Dynamic-Programing,Hard
