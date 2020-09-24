@@ -250,3 +250,11 @@ AZ_IB_ValidBinarySearchTree.py,2020-09-23,2020-09-23,10:09:50 AM,10:16:58 AM,7.0
 AZ_IB_BalancedBinaryTree.py,2020-09-23,2020-09-23,10:47:48 AM,10:58:55 AM,11.0,Tree,Medium
 AZ_IB_DiagonalTraversal.py,2020-09-23,2020-09-23,11:02:48 AM,11:08:50 AM,6.0,Tree,Medium
 AZ_IB_VerticalOrdertraversalofBinaryTree.py,2020-09-23,2020-09-23,11:14:29 AM,11:23:19 AM,8.0,Tree,Medium
+AZ_IB_LongestIncreasingSubsequence.py,2020-09-24,2020-09-24,09:39:38 AM,09:47:42 AM,8.0,Dynamic-Programing,Medium
+AZ_IB_UniqueBinarySearchTrees.py,2020-09-24,2020-09-24,09:57:23 AM,10:08:55 AM,11.0,Dynamic-Programing,Medium
+AZ_IB_MaxProductSubarray.py,2020-09-24,2020-09-24,10:09:36 AM,10:13:26 AM,3.0,Dynamic-Programing,Medium
+AZ_IB_WaystoDecode.py,2020-09-24,2020-09-24,10:29:52 AM,10:39:06 AM,9.0,Dynamic-Programing,Medium
+AZ_IB_MaxProfitWithKTransaction.py,2020-09-24,None,11:19:14 AM,None,None,Dynamic-Programing,Hard
+AZ_IB_MaxSumPathinBinaryTree.py,2020-09-24,2020-09-24,12:26:03 PM,12:33:39 PM,7.0,Tree,Hard
+AZ_IB_PalindromePartitioning.py,2020-09-24,2020-09-24,12:41:09 PM,12:53:24 PM,12.0,Dynamic-Programing,Hard
+AZ_IB_MinCostPath.py,2020-09-24,2020-09-24,01:05:04 PM,01:19:36 PM,14.0,Dynamic-Programing,Hard
