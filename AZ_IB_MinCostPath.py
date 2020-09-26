@@ -10,9 +10,9 @@ board = [[1, 3, 2],
          [4, 3, 1],
          [5, 6, 1]]
 
-board = [[1, 2, 3],
-         [4, 8, 2],
-         [1, 5, 3]]
+# board = [[1, 2, 3],
+#          [4, 8, 2],
+#          [1, 5, 3]]
 
 
 def minPath(board):
@@ -27,7 +27,7 @@ def minPath(board):
 
     for row in range(1, r):
         for col in range(1, c):
-            dp[row][col] = min(dp[row - 1][col - 1], dp[row - 1][col], dp[row][col - 1]) + board[row][col]
+            dp[row][col] = min(dp[row - 1][col], dp[row][col - 1]) + board[row][col]
     [print(x) for x in dp]
 
     return dp[-1][-1]

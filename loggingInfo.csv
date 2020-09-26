@@ -258,3 +258,8 @@ AZ_IB_MaxProfitWithKTransaction.py,2020-09-24,2020-09-24,11:19:14 AM,11:34:43 PM
 AZ_IB_MaxSumPathinBinaryTree.py,2020-09-24,2020-09-24,12:26:03 PM,12:33:39 PM,7.0,Tree,Hard
 AZ_IB_PalindromePartitioning.py,2020-09-24,2020-09-24,12:41:09 PM,12:53:24 PM,12.0,Dynamic-Programing,Hard
 AZ_IB_MinCostPath.py,2020-09-24,2020-09-24,01:05:04 PM,01:19:36 PM,14.0,Dynamic-Programing,Hard
+AZ_IB_MinJumps.py,2020-09-25,2020-09-25,12:39:27 PM,12:47:13 PM,7.0,Dynamic-Programing,Medium
+AZ_IB_EditDistance.py,2020-09-26,2020-09-26,08:14:13 PM,08:25:00 PM,10.0,Dynamic-Programing,Hard
+AZ_IB_CountWaystoReachTheNthStair.py,2020-09-26,2020-09-26,09:13:34 PM,09:26:53 PM,13.0,Dynamic-Programing,Medium
+AZ_IB_EqualAveragePartition.py,2020-09-26,2020-09-26,09:52:53 PM,10:19:37 PM,26.0,Dynamic-Programing,Hard
+AZ_LC_416_PartitionEqualSubsetSum.py,2020-09-26,2020-09-26,10:20:43 PM,10:36:59 PM,16.0,Dynamic-Programing,Medium
