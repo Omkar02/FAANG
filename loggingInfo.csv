@@ -272,3 +272,9 @@ G_388_LongestAbsoluteFilePath.py,2020-09-29,2020-09-29,09:39:38 AM,09:55:20 AM,1
 G_638_KEmptySlots.py,2020-09-29,2020-09-29,10:54:58 AM,11:04:32 AM,9.0,Array,Hard
 G_681_NextClosestTime.py,2020-09-29,2020-09-29,12:00:24 PM,12:17:30 PM,17.0,String,Medium
 G_904_FruitIntoBaskets.py,2020-09-29,2020-09-29,12:41:44 PM,12:48:26 PM,6.0,Array,Medium
+G_1007_MinimumDominoRotationsForEqualRow.py,2020-09-29,2020-09-29,04:04:36 PM,04:12:28 PM,7.0,Array,Medium
+G_843_GuesstheWord.py,2020-09-29,2020-09-29,04:24:09 PM,04:39:38 PM,15.0,Tries,Hard
+G_817_RangeSumQuery2DMutable.py,2020-09-29,2020-09-29,04:47:28 PM,04:55:12 PM,7.0,Matrix,Hard
+G_288_UniqueWordAbbreviation.py,2020-09-29,2020-09-29,09:13:52 PM,09:19:42 PM,5.0,Array,Medium
+G_489_RobotRoomCleaner.py,2020-09-29,2020-09-29,09:27:26 PM,09:45:24 PM,17.0,Matrix,Hard
+G_399_EvaluateDivision.py,2020-09-29,2020-09-29,09:50:37 PM,10:10:58 PM,20.0,Graphs,Hard
