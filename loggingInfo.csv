@@ -263,3 +263,8 @@ AZ_IB_EditDistance.py,2020-09-26,2020-09-26,08:14:13 PM,08:25:00 PM,10.0,Dynamic
 AZ_IB_CountWaystoReachTheNthStair.py,2020-09-26,2020-09-26,09:13:34 PM,09:26:53 PM,13.0,Dynamic-Programing,Medium
 AZ_IB_EqualAveragePartition.py,2020-09-26,2020-09-26,09:52:53 PM,10:19:37 PM,26.0,Dynamic-Programing,Hard
 AZ_LC_416_PartitionEqualSubsetSum.py,2020-09-26,2020-09-26,10:20:43 PM,10:36:59 PM,16.0,Dynamic-Programing,Medium
+AZ_GFG_DP_LongestCommonSubseq.py,2020-09-28,2020-09-28,10:26:28 AM,10:33:45 AM,7.0,Dynamic-Programing,Medium
+AZ_GFG_DP_LongestIncreasingSubsequence.py,2020-09-28,2020-09-28,10:55:19 AM,11:09:05 AM,13.0,Dynamic-Programing,Medium
+AZ_GFG_DP_EditDistance.py,2020-09-28,2020-09-28,11:24:47 AM,11:32:20 AM,7.0,Dynamic-Programing,Medium
+AZ_GFG_DP_PartitionSubsetMinDiff.py,2020-09-28,2020-09-28,11:36:54 AM,11:48:34 AM,11.0,Dynamic-Programing,Medium
+AZ_GFG_DP_WaysToCoverDistance.py,2020-09-28,2020-09-28,11:54:11 AM,11:59:44 AM,5.0,Dynamic-Programing,Medium
