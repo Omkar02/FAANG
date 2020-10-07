@@ -110,6 +110,7 @@ tree = BST()
 
 readyTree = BST()
 array = [6, 2, 1, 3, 5, 8, 7, 9, 10]
+array = [7, 2, 1, 3, 5, 8, 9, 10]
 for i in array:
     readyTree.insert(i)
 

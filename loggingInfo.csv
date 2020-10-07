@@ -278,3 +278,17 @@ G_817_RangeSumQuery2DMutable.py,2020-09-29,2020-09-29,04:47:28 PM,04:55:12 PM,7.
 G_288_UniqueWordAbbreviation.py,2020-09-29,2020-09-29,09:13:52 PM,09:19:42 PM,5.0,Array,Medium
 G_489_RobotRoomCleaner.py,2020-09-29,2020-09-29,09:27:26 PM,09:45:24 PM,17.0,Matrix,Hard
 G_399_EvaluateDivision.py,2020-09-29,2020-09-29,09:50:37 PM,10:10:58 PM,20.0,Graphs,Hard
+G_975_OddEvenJump.py,2020-09-30,2020-09-30,09:16:22 AM,09:25:20 AM,8.0,Dynamic-Programing,Hard
+G_418_SentenceScreenFitting.py,2020-09-30,2020-09-30,09:47:33 AM,10:02:27 AM,14.0,String,Medium
+G_DP_1048_LongestStringChain.py,2020-10-01,2020-10-01,09:44:16 AM,10:10:30 AM,26.0,Dynamic-Programing,Medium
+AZ_GFG_DP_CoinChange.py,2020-10-03,2020-10-03,11:28:27 AM,11:35:47 AM,7.0,Dynamic-Programing,Medium
+AZ_GFG_DP_MinCoinsReq.py,2020-10-03,2020-10-03,11:47:36 AM,11:58:16 AM,10.0,Dynamic-Programing,Medium
+AZ_GFG_GraphsCountDisconnectedSunNet.py,2020-10-03,2020-10-03,06:55:49 PM,07:11:54 PM,16.0,Graphs,Medium
+AZ_GFG_NumberOfIsland.py,2020-10-04,2020-10-04,12:14:52 PM,12:32:04 PM,17.0,Graphs,Medium
+AZ_GFG_LRUCache.py,2020-10-04,2020-10-04,12:34:24 PM,12:56:39 PM,22.0,Linked-List,Hard
+AZ_GFG_KSmallestElementInInterval.py,2020-10-06,2020-10-06,10:12:57 AM,10:31:08 AM,18.0,Array,Medium
+AZ_GFG_MaxSumWithMinProduct.py,2020-10-06,2020-10-06,10:34:15 AM,10:46:00 AM,11.0,Array,Medium
+AZ_GFG_MaxSubArrayWithDistinct.py,2020-10-06,2020-10-06,10:55:10 AM,11:19:03 AM,23.0,Array,Medium
+AZ_GFG_KDistinctElements.py,2020-10-06,2020-10-06,11:30:54 AM,11:42:51 AM,11.0,String,Medium
+G_LC_361_BombEnemy.py,2020-10-07,2020-10-07,09:29:44 PM,09:41:11 PM,11.0,Graphs,Medium
+G_LC_595_BinaryTreeLongestConsecutiveSequence.py,2020-10-07,2020-10-07,09:51:20 PM,10:04:22 PM,13.0,Tree,Medium
