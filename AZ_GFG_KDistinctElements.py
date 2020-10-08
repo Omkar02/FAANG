@@ -31,5 +31,5 @@ def KdistinctEnementWithlenK(string, k):
 string = "abcc"
 k = 2
 string = "aabab"
-k = 3
+k = 2
 print(KdistinctEnementWithlenK(string, k))
