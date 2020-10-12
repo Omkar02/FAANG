@@ -85,22 +85,22 @@ GaugeGraph = go.Figure(go.Indicator(
     value=data['Duration'].count(),
     domain={'x': [0, 1], 'y': [0, 1]},
     title={'text': "Total Completed", 'font': {'size': 24}},
-    delta={'reference': 300, 'increasing': {'color': "RebeccaPurple"}},
+    delta={'reference': 500, 'increasing': {'color': "RebeccaPurple"}},
     gauge={
-        'axis': {'range': [None, 300], 'tickwidth': 1, 'tickcolor': "#ffffdd"},
+        'axis': {'range': [None, 500], 'tickwidth': 1, 'tickcolor': "#ffffdd"},
         'bar': {'color': "#fa1616"},
         'bgcolor': "white",
         'borderwidth': 2,
         'bordercolor': "gray",
         'steps': [
-            {'range': [0, 150], 'color': '#d3de32'},
-            {'range': [150, 200], 'color': '#cbeaed'},
-            {'range': [200, 250], 'color': '#ffffdd'},
-            {'range': [250, 300], 'color': '#006a71'}],
+            {'range': [0, 200], 'color': '#d3de32'},
+            {'range': [200, 300], 'color': '#cbeaed'},
+            {'range': [300, 400], 'color': '#ffffdd'},
+            {'range': [400, 500], 'color': '#006a71'}],
         'threshold': {
             'line': {'color': "red", 'width': 4},
             'thickness': 0.75,
-            'value': 250}}))
+            'value': 400}}))
 
 # GaugeGraph.update_layout(paper_bgcolor="#1b262c", font={'color': "#ffffdd", 'family': "Arial"})
 # GaugeGraph.write_html("GaugeGraphs.html")
