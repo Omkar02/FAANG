@@ -1,9 +1,9 @@
-import __main__ as main
-from Helper.TimerLogger import CodeTimeLogging
-fileName = main.__file__
-fileName = fileName.split('\\')[-1]
+# import __main__ as main
+# from Helper.TimerLogger import CodeTimeLogging
+# fileName = main.__file__
+# fileName = fileName.split('\\')[-1]
 
-CodeTimeLogging(Flag='F', filename=fileName, Tag='Two-Pointer', Difficult='Medium')
+# CodeTimeLogging(Flag='F', filename=fileName, Tag='Two-Pointer', Difficult='Medium')
 
 
 '''G
@@ -30,6 +30,7 @@ Output:
 
 def findLongestWord(s, d):
     d.sort(key=lambda x: (-len(x), x))
+    print(d)
     for word in d:
         i = j = 0
         while i < len(s) and j < len(word):
