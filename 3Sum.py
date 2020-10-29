@@ -1,9 +1,9 @@
-import __main__ as main
-from Helper.TimerLogger import CodeTimeLogging
-fileName = main.__file__
-fileName = fileName.split('\\')[-1]
+# import __main__ as main
+# from Helper.TimerLogger import CodeTimeLogging
+# fileName = main.__file__
+# fileName = fileName.split('\\')[-1]
 
-CodeTimeLogging(Flag='F', filename=fileName, Tag='Array')
+# CodeTimeLogging(Flag='F', filename=fileName, Tag='Array')
 
 
 '''
@@ -22,7 +22,7 @@ A solution set is:
 ]
 '''
 nums = [-1, 0, 1, 2, -1, -4]
-# nums = [12, 3, 1, 2, -6, 5, -8, 6]
+nums = [12, 3, 1, 2, -6, 5, -8, 6]
 
 
 def ThreeSum(nums, target):
@@ -31,14 +31,15 @@ def ThreeSum(nums, target):
 
     for i, a in enumerate(nums):
         if i > 0 and a == nums[i - 1]:
+            print(1, [a, nums[i - 1]])
             continue
 
         l, r = i + 1, len(nums) - 1
         while l < r:
             threeSum = a + nums[l] + nums[r]
-            if threeSum > 0:
+            if threeSum > target:
                 r -= 1
-            elif threeSum < 0:
+            elif threeSum < target:
                 l += 1
             else:
                 res.append([a, nums[l], nums[r]])
@@ -48,4 +49,7 @@ def ThreeSum(nums, target):
     return res
 
 
-print(ThreeSum(nums, 0))
+print(ThreeSum(nums, 2))
+
+
+
