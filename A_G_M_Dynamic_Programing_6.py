@@ -112,6 +112,5 @@ def BB(nums, low, high):
 
 nums = [3, 1, 5, 8]
 nums = [1] + nums + [1]
-print(BB(nums, 0, len(nums) - 1))
-print(cnt)
-# 167
+# print(BB(nums, 0, len(nums) - 1))
+# print(cnt)

@@ -7,6 +7,7 @@
 
 
 def isInterleaved(stringOne, stringTwo, n, m, target, cache):
+    print(stringOne[n])
     curr = (n, m)
     if curr in cache:
         return cache[curr]
@@ -25,7 +26,7 @@ def isInterleaved(stringOne, stringTwo, n, m, target, cache):
     return False
 
 
-stringOne = "XXY"
+stringOne = "XXYr"
 stringTwo = "XXZ"
 target = "XXXXZY"
 
