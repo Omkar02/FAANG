@@ -3,6 +3,7 @@ class bNode:
         self.data = data
         self.lChild = None
         self.rChild = None
+        self.nextRight = None
 
 
 class BST():

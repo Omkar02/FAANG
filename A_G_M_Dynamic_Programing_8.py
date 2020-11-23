@@ -1,9 +1,9 @@
-import __main__ as main
-from Helper.TimerLogger import CodeTimeLogging
-fileName = main.__file__
-fileName = fileName.split('\\')[-1]
+# import __main__ as main
+# from Helper.TimerLogger import CodeTimeLogging
+# fileName = main.__file__
+# fileName = fileName.split('\\')[-1]
 
-CodeTimeLogging(Flag='F', filename=fileName, Tag='Dynamic-Programming', Difficult='Medium')
+# CodeTimeLogging(Flag='F', filename=fileName, Tag='Dynamic-Programming', Difficult='Medium')
 
 
 cnt = [0]
@@ -17,7 +17,7 @@ def BSTP(n):
         return 1
 
     numTrees = 0
-    for left in range(n):
+    for left in range(n)
         right = n - 1 - left
         lNode = BSTP(left)
         rNode = BSTP(right)
