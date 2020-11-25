@@ -15,7 +15,6 @@ def mergeIntervals(intervals):
         curr = intervals[i]
         if curr[0] > maxInterval:
             if i != 0:
-                print(1)
                 merged.append([start, maxInterval])
             maxInterval = curr[1]
             start = curr[0]
