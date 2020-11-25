@@ -23,6 +23,7 @@ def KP(bagW, itemWei, itemVal, idx):
 
 itemVal = [60, 100, 120]
 itemWei = [10, 20, 30]
+
 bagW = 50
 idx = len(itemWei)
 
