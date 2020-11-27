@@ -1,9 +1,9 @@
-import __main__ as main
-from Helper.TimerLogger import CodeTimeLogging
-fileName = main.__file__
-fileName = fileName.split('\\')[-1]
+# import __main__ as main
+# from Helper.TimerLogger import CodeTimeLogging
+# fileName = main.__file__
+# fileName = fileName.split('\\')[-1]
 
-CodeTimeLogging(Flag='F', filename=fileName, Tag='Array', Difficult='Medium')
+# CodeTimeLogging(Flag='F', filename=fileName, Tag='Array', Difficult='Medium')
 
 
 "Longest Substring Without Repeating Characters"
@@ -71,4 +71,4 @@ for i in arr:
     insert(i)
     result.append(va[2])
     # print(result)
-print(f'the contineous Mediam = {result}')
+# print(f'the contineous Mediam = {result}')

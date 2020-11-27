@@ -372,3 +372,9 @@ D3_LC_74_Search_a_2D_Matrix.py,2020-11-26,2020-11-26,10:42:28 AM,10:50:30 AM,8.0
 D3_LC_50_Pow.py,2020-11-26,2020-11-26,11:09:48 AM,11:15:08 AM,5.0,Math,Medium
 D3_LC_169_Majority_Element.py,2020-11-26,2020-11-26,11:25:12 AM,11:30:34 AM,5.0,Array,Medium
 GoldManSachs_prep.py,2020-11-26,2020-11-26,10:29:35 PM,10:51:57 PM,22.0,Array,Medium
+GoldManSachs_prep_2.py,2020-11-27,2020-11-27,07:37:01 AM,08:12:59 AM,35.0,Array,Medium
+GS_LC_19_Remove_Nth_Node_From_End_of_List.py,2020-11-27,2020-11-27,08:19:31 PM,08:32:50 PM,13.0,Linked-List,Medium
+GS_LC_20_Valid_Parentheses.py,2020-11-27,2020-11-27,08:34:56 PM,08:41:39 PM,6.0,Stack,Medium
+GS_LC_23_Merge_k_Sorted_Lists.py,2020-11-27,2020-11-27,08:58:10 PM,09:09:32 PM,11.0,Linked-List,Hard
+GS_LC_33_Search_in_Rotated_Sorted_Array.py,2020-11-27,2020-11-27,09:10:49 PM,09:22:32 PM,11.0,Array,Medium
+GS_LC_39_Combination_Sum.py,2020-11-27,2020-11-27,09:40:21 PM,09:51:59 PM,11.0,Array,Medium
