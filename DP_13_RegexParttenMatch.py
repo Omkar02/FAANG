@@ -24,10 +24,11 @@ CodeTimeLogging(Flag='F', filename=fileName, Tag='Dynamic-Programing', Difficult
 def patternMatcher(string, partten):
     dp = [[False for i in range(len(partten) + 1)]for j in range(len(string) + 1)]
     dp[0][0] = True
-    for i in range(1, len(partten)):
-        if partten[i - 1] == '*':
-            dp[0][i] == dp[0][i - 2]
-
+    # for i in range(1, len(partten)):
+    #     if partten[i - 1] == '*':
+    #         dp[0][i] == dp[0][i - 2]
+    # print(dp)
+    print()
     for i in range(1, len(string) + 1):
         for j in range(1, len(partten) + 1):
             if string[i - 1] == partten[j - 1] or partten[j - 1] == '.':

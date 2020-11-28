@@ -29,7 +29,7 @@ def CMW(heights):
 
 
 heights = [1, 8, 6, 2, 5, 4, 8, 3, 7]
-# print(CMW(heights))
+print(CMW(heights))
 
 
 '15. 3Sum'
@@ -110,6 +110,3 @@ def _helpCombine(currString, leftOverdigit, phone, result):
 
 digits = '23'
 # print(letterCombination(digits))
-
-
-

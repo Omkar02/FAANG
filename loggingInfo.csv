@@ -378,3 +378,7 @@ GS_LC_20_Valid_Parentheses.py,2020-11-27,2020-11-27,08:34:56 PM,08:41:39 PM,6.0,
 GS_LC_23_Merge_k_Sorted_Lists.py,2020-11-27,2020-11-27,08:58:10 PM,09:09:32 PM,11.0,Linked-List,Hard
 GS_LC_33_Search_in_Rotated_Sorted_Array.py,2020-11-27,2020-11-27,09:10:49 PM,09:22:32 PM,11.0,Array,Medium
 GS_LC_39_Combination_Sum.py,2020-11-27,2020-11-27,09:40:21 PM,09:51:59 PM,11.0,Array,Medium
+GS_LC_42_Trapping_Rain_Water.py,2020-11-28,2020-11-28,05:01:00 PM,05:09:57 PM,8.0,Array,Hard
+GS_LC_44_Wildcard_Matching.py,2020-11-28,2020-11-28,05:23:45 PM,05:47:34 PM,23.0,String,Hard
+GS_LC_46_Permutations.py,2020-11-28,2020-11-28,05:49:52 PM,05:56:25 PM,6.0,String,Medium
+GS_LC_49_Group_Anagrams.py,2020-11-28,2020-11-28,05:59:20 PM,06:03:47 PM,4.0,String,Medium
