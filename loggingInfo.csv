@@ -382,3 +382,5 @@ GS_LC_42_Trapping_Rain_Water.py,2020-11-28,2020-11-28,05:01:00 PM,05:09:57 PM,8.
 GS_LC_44_Wildcard_Matching.py,2020-11-28,2020-11-28,05:23:45 PM,05:47:34 PM,23.0,String,Hard
 GS_LC_46_Permutations.py,2020-11-28,2020-11-28,05:49:52 PM,05:56:25 PM,6.0,String,Medium
 GS_LC_49_Group_Anagrams.py,2020-11-28,2020-11-28,05:59:20 PM,06:03:47 PM,4.0,String,Medium
+GS_LC_54_Spiral_Matrix.py,2020-11-28,2020-11-28,09:06:37 PM,09:20:33 PM,13.0,Matrix,Medium
+GS_LC_62_Unique_Paths.py,2020-11-28,2020-11-28,09:29:07 PM,09:36:00 PM,6.0,Dynamic-Programing,Medium
