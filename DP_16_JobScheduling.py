@@ -1,9 +1,9 @@
-import __main__ as main
-from Helper.TimerLogger import CodeTimeLogging
-fileName = main.__file__
-fileName = fileName.split('\\')[-1]
+# import __main__ as main
+# from Helper.TimerLogger import CodeTimeLogging
+# fileName = main.__file__
+# fileName = fileName.split('\\')[-1]
 
-CodeTimeLogging(Flag='F', filename=fileName, Tag='Dynamic-Programing', Difficult='Medium')
+# CodeTimeLogging(Flag='F', filename=fileName, Tag='Dynamic-Programing', Difficult='Medium')
 
 
 def maxProfitjobScheduling(jobList):
@@ -48,5 +48,10 @@ jobList = [[1, 3, 5],
            [6, 7, 4],
            [5, 8, 11],
            [7, 9, 2]]
+
+jobList = [[1, 2, 100],
+           [2, 1, 10],
+           [3, 2, 15],
+           [4, 1, 27]]
 
 print(maxProfitjobScheduling(jobList))

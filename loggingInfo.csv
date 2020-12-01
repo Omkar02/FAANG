@@ -384,3 +384,13 @@ GS_LC_46_Permutations.py,2020-11-28,2020-11-28,05:49:52 PM,05:56:25 PM,6.0,Strin
 GS_LC_49_Group_Anagrams.py,2020-11-28,2020-11-28,05:59:20 PM,06:03:47 PM,4.0,String,Medium
 GS_LC_54_Spiral_Matrix.py,2020-11-28,2020-11-28,09:06:37 PM,09:20:33 PM,13.0,Matrix,Medium
 GS_LC_62_Unique_Paths.py,2020-11-28,2020-11-28,09:29:07 PM,09:36:00 PM,6.0,Dynamic-Programing,Medium
+AZ_LC_572_Subtree_of_Another_Tree.py,2020-11-29,2020-11-29,09:27:52 PM,09:33:54 PM,6.0,Tree,Easy
+AZ_LC_206_Reverse_Linked_List.py,2020-11-29,2020-11-29,09:49:39 PM,09:54:45 PM,5.0,Linked-List,Easy
+AZ_LC_538_Convert_BST_to_Greater_Tree.py,2020-11-30,2020-11-30,10:52:27 AM,10:55:40 AM,3.0,Tree,Easy
+AZ_LC_496_Next_Greater_Element_I.py,2020-11-30,2020-11-30,11:12:50 AM,11:18:16 AM,5.0,Array,Easy
+AZ_LC_205_Isomorphic_Strings.py,2020-11-30,2020-11-30,11:27:50 AM,11:33:03 AM,5.0,Array,Easy
+AZ_LC_14_Longest_Common_Prefix.py,2020-11-30,2020-11-30,11:41:04 AM,11:44:15 AM,3.0,Array,Easy
+AZ_LC_112_Path_Sum.py,2020-12-01,2020-12-01,11:44:55 AM,11:55:01 AM,10.0,Tree,Easy
+AZ_LC_997_Find_the_Town_Judge.py,2020-12-01,2020-12-01,12:06:13 PM,12:12:03 PM,5.0,Graphs,Easy
+AZ_LC_257_Binary_Tree_Paths.py,2020-12-01,2020-12-01,12:14:54 PM,12:20:49 PM,5.0,Tree,Easy
+AZ_LC_993_Cousins_in_Binary_Tree.py,2020-12-01,2020-12-01,12:46:59 PM,12:59:48 PM,12.0,Tree,Medium
