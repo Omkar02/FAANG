@@ -1,9 +1,9 @@
-import __main__ as main
-from Helper.TimerLogger import CodeTimeLogging
-fileName = main.__file__
-fileName = fileName.split('\\')[-1]
+# import __main__ as main
+# from Helper.TimerLogger import CodeTimeLogging
+# fileName = main.__file__
+# fileName = fileName.split('\\')[-1]
 
-CodeTimeLogging(Flag='F', filename=fileName, Tag='Tree', Difficult='Easy')
+# CodeTimeLogging(Flag='F', filename=fileName, Tag='Tree', Difficult='Easy')
 
 from Datastruct.masterTree import readyTree, tree
 readyTree.printTree()
