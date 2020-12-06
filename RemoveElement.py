@@ -1,9 +1,9 @@
-import __main__ as main
-from Helper.TimerLogger import CodeTimeLogging
-fileName = main.__file__
-fileName = fileName.split('\\')[-1]
+# import __main__ as main
+# from Helper.TimerLogger import CodeTimeLogging
+# fileName = main.__file__
+# fileName = fileName.split('\\')[-1]
 
-CodeTimeLogging(Flag='F', filename=fileName, Tag='Two-Pointer', Difficult='Easy')
+# CodeTimeLogging(Flag='F', filename=fileName, Tag='Two-Pointer', Difficult='Easy')
 
 '''
 Given an array nums and a value val, remove all instances of that value in-place and return the new length.
