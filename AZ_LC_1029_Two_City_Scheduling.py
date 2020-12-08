@@ -1,9 +1,9 @@
-import __main__ as main
-from Helper.TimerLogger import CodeTimeLogging
-fileName = main.__file__
-fileName = fileName.split('\\')[-1]
+# import __main__ as main
+# from Helper.TimerLogger import CodeTimeLogging
+# fileName = main.__file__
+# fileName = fileName.split('\\')[-1]
 
-CodeTimeLogging(Flag='F', filename=fileName, Tag='Array', Difficult='Medium')
+# CodeTimeLogging(Flag='F', filename=fileName, Tag='Array', Difficult='Medium')
 
 
 def cityScheduling(costs):
@@ -12,7 +12,7 @@ def cityScheduling(costs):
     half = len(costs) // 2
     totalCost = 0
     for aCost, bCost in costs:
-        totalCost += aCost if idx < half else bCost
+        totalCost += aCost if idx < hNalf else bCost
         idx += 1
     return totalCost
 

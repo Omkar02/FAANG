@@ -2,6 +2,7 @@ class Node(object):
     def __init__(self, data):
         self.data = data
         self.nextNode = None
+        self.random = None
 
 
 class LinkedList(object):
@@ -27,6 +28,21 @@ class LinkedList(object):
         if self.size == 4:
             # print(newNode.data, '======')
             self.dataFour = newNode
+
+        if not self.head:
+            self.head = newNode
+            self.curr = self.head
+        else:
+            self.curr.nextNode = newNode
+            self.curr = newNode
+
+    def insertStartWithRandom(self, data, random):
+        self.size = self.size + 1
+        newNode = Node(data)
+        newNode.random = random
+        # if self.size == 4:
+        #     # print(newNode.data, '======')
+        #     self.dataFour = newNode
 
         if not self.head:
             self.head = newNode
