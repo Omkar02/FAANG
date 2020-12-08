@@ -40,9 +40,6 @@ class LinkedList(object):
         self.size = self.size + 1
         newNode = Node(data)
         newNode.random = random
-        # if self.size == 4:
-        #     # print(newNode.data, '======')
-        #     self.dataFour = newNode
 
         if not self.head:
             self.head = newNode
