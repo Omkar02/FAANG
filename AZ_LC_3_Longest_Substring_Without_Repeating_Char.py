@@ -1,9 +1,9 @@
-import __main__ as main
-from Helper.TimerLogger import CodeTimeLogging
-fileName = main.__file__
-fileName = fileName.split('\\')[-1]
+# import __main__ as main
+# from Helper.TimerLogger import CodeTimeLogging
+# fileName = main.__file__
+# fileName = fileName.split('\\')[-1]
 
-CodeTimeLogging(Flag='F', filename=fileName, Tag='Array', Difficult='Medium')
+# CodeTimeLogging(Flag='F', filename=fileName, Tag='Array', Difficult='Medium')
 
 
 def LSWRC(s):
@@ -16,6 +16,8 @@ def LSWRC(s):
         ans = max(ans, currIdx - startIdx + 1)
         lastOcc[s[currIdx]] = currIdx + 1
     return ans
+
+    
 
 
 s = 'abcabcbb'
