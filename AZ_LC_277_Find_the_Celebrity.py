@@ -20,8 +20,8 @@ def findCelebrity(guestList):
     return a
 
 
-guestList = [[0, 0, 1, 0],
-             [0, 0, 1, 0],
-             [0, 0, 0, 0],
-             [0, 0, 1, 0]]
+guestList = [[0, 0, 1, 1],
+             [0, 0, 1, 1],
+             [0, 0, 1, 1],
+             [0, 0, 0, 0]]
 print(findCelebrity(guestList))
