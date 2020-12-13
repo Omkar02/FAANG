@@ -22,14 +22,13 @@ class jobGraphs:
             self.graphs[jb] = jobNode(jb)
             self.nodes.append(self.graphs[jb])
 
-    def addReqs(self, job, prereq):
+    def addReqs(self, job, prereqs):
         jobNode = self.graphs[job]
-        jobPrereq = self.graphs[prereq]
+        jobPrereq = self.graphs[prereqs]
 
         jobNode.prereqs.append(jobPrereq)
 
 
-# Main
 def topologicalSort(jobs, dependency):
     graphs = createJobGraphs(jobs, dependency)
     return getOrderedJob(graphs)
@@ -47,23 +46,21 @@ def getOrderedJob(graphs):
     node = graphs.nodes
     while len(node):
         newNode = node.pop()
-        containsCycle = depthFirstTraverse(newNode, orderedJob)
+        containsCycle = DFS(newNode, orderedJob)
         if containsCycle:
             return False
     return True, list(reversed(orderedJob))
 
 
-def depthFirstTraverse(node, orderedJob):
+def DFS(node, orderedJob):
     if node.visited:
         return False
-
     if node.processing:
         return True
 
     node.processing = True
-
     for prereq in node.prereqs:
-        containsCycle = depthFirstTraverse(prereq, orderedJob)
+        containsCycle = DFS(prereq, orderedJob)
         if containsCycle:
             return False, orderedJob
 
@@ -72,9 +69,6 @@ def depthFirstTraverse(node, orderedJob):
     orderedJob.append(node.job)
 
 
-node = [0, 1]
-dependency = [[1, 0]]
-
-# node = [0, 1, 2, 3]
-# dependency = [[1, 0], [2, 0], [3, 1], [3, 2]]
+node = [0, 1, 2, 3]
+dependency = [[1, 0], [2, 0], [3, 1], [3, 2]]
 print(f'the Order = {topologicalSort(node, dependency)}')
