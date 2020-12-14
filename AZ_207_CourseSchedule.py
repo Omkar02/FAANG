@@ -75,6 +75,6 @@ def depthFirstTraverse(node, orderedJob):
 node = [0, 1]
 dependency = [[1, 0]]
 
-# node = [0, 1, 2, 3]
-# dependency = [[1, 0], [2, 0], [3, 1], [3, 2]]
+node = [0, 1, 2, 3]
+dependency = [[1, 0], [2, 0], [3, 1], [3, 2]]
 print(f'the Order = {topologicalSort(node, dependency)}')
