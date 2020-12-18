@@ -37,13 +37,13 @@ class BST():
             if data < actNode.data:
                 if actNode.data == data:
                     print('Found!')
-                    return
+                    return actNode
                 else:
                     actNode = actNode.lChild
             else:
                 if actNode.data == data:
                     print('Found!')
-                    return
+                    return actNode
                 else:
                     actNode = actNode.rChild
         print('Nee!')
