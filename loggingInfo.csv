@@ -468,3 +468,7 @@ AZ_LC_399_Evaluate_Division.py,2020-12-21,2020-12-21,05:26:11 PM,05:39:24 PM,13.
 AZ_LC_516_Longest_Palindromic_Subsequence.py,2020-12-21,2020-12-21,05:47:25 PM,05:56:14 PM,8.0,Dynamic-Programing,Medium
 AZ_LC_1011_Capacity_To_Ship_Packages_Within_D_Days.py,2020-12-21,2020-12-21,06:29:49 PM,06:37:23 PM,7.0,Array,Medium
 AZ_LC_29_Divide_Two_Integers.py,2020-12-21,2020-12-21,06:43:23 PM,06:49:37 PM,6.0,Math,Medium
+AZ_LC_230_Kth_Smallest_Element_in_a_BST.py,2020-12-22,2020-12-22,09:07:12 PM,09:10:55 PM,3.0,Tree,Medium
+AZ_LC_542_01_Matrix.py,2020-12-22,2020-12-22,09:16:36 PM,09:32:33 PM,15.0,Graph,Medium
+AZ_LC_622_Design_Circular_Queue.py,2020-12-22,2020-12-22,09:39:03 PM,09:49:09 PM,10.0,Array,Medium
+AZ_LC_721_Accounts_Merge.py,2020-12-22,2020-12-22,09:51:48 PM,10:07:55 PM,16.0,Disjoint-Set,Medium
