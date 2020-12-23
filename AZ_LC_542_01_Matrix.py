@@ -3,7 +3,7 @@
 # fileName = main.__file__
 # fileName = fileName.split('\\')[-1]
 
-# CodeTimeLogging(Flag='F', filename=fileName, Tag='Graph', Difficult='Medium')
+# CodeTimeLogging(Flag='F', filename=fileName, Tag='Graphs', Difficult='Medium')
 
 
 # BFS

@@ -42,7 +42,6 @@ class UF:
 
         result = []
         for cluster in clusters.values():
-
             if cluster[0] in email_to_person:
                 group = [email_to_person[cluster[0]]] + sorted(cluster)
                 result.append(group)
