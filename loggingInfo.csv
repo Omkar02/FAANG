@@ -474,4 +474,7 @@ AZ_LC_622_Design_Circular_Queue.py,2020-12-22,2020-12-22,09:39:03 PM,09:49:09 PM
 AZ_LC_721_Accounts_Merge.py,2020-12-22,2020-12-22,09:51:48 PM,10:07:55 PM,16.0,Disjoint-Set,Medium
 AZ_LC_131_Palindrome_Partitioning.py,2020-12-23,2020-12-23,09:32:33 PM,09:46:33 PM,14.0,Array,Medium
 AZ_LC_498_Diagonal_Traverse.py,2020-12-23,2020-12-23,09:49:49 PM,10:02:21 PM,12.0,Matrix,Medium
-AZ_LC_1219_Path_with_Maximum_Gold.py,2020-12-23,2020-12-23,10:16:56 PM,10:29:11 PM,12.0,Graph,Medium
+AZ_LC_1219_Path_with_Maximum_Gold.py,2020-12-23,2020-12-23,10:16:56 PM,10:29:11 PM,12.0,Graphs,Medium
+AZ_LC_187_Repeated_DNA_Sequences.py,2020-12-24,2020-12-24,10:03:36 AM,10:08:51 AM,5.0,String,Medium
+AZ_LC_547_Friend_Circles.py,2020-12-24,2020-12-24,10:13:25 AM,10:20:20 AM,6.0,Graphs,Medium
+AZ_LC_647_Palindromic_Substrings.py,2020-12-24,2020-12-24,09:49:16 PM,10:03:36 PM,14.0,Array,Medium
