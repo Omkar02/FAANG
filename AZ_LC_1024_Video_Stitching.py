@@ -1,9 +1,9 @@
-import __main__ as main
-from Helper.TimerLogger import CodeTimeLogging
-fileName = main.__file__
-fileName = fileName.split('\\')[-1]
+# import __main__ as main
+# from Helper.TimerLogger import CodeTimeLogging
+# fileName = main.__file__
+# fileName = fileName.split('\\')[-1]
 
-CodeTimeLogging(Flag='F', filename=fileName, Tag='Array', Difficult='Medium')
+# CodeTimeLogging(Flag='F', filename=fileName, Tag='Array', Difficult='Medium')
 
 
 def videoStitching(clips, T):
@@ -11,7 +11,7 @@ def videoStitching(clips, T):
     right = 0
     idx = 0
     count = 0
-
+    print(clips)
     while idx < len(clips):
         if clips[idx][0] > right:
             return -1
@@ -23,7 +23,7 @@ def videoStitching(clips, T):
 
         right = farReach
         count += 1
-
+        print(farReach)
         if farReach >= T:
             return count
 
