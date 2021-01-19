@@ -114,6 +114,6 @@ def CR(rodPrice, n):
     return maxPrice
 
 
-rodPrice = [1, 5, 8, 9, 10, 17, 17, 20]
+# rodPrice = [1, 5, 8, 9, 10, 17, 17, 20]
 # print(CR(rodPrice, len(rodPrice)))
 # print(cnt)

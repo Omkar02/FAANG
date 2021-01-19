@@ -96,8 +96,8 @@ def MP(price):
 
 
 price = [5, 11, 3, 50, 60, 90]
-MP(price)
-print(cnt)
+# MP(price)
+# print(cnt)
 "Buy-Sell Stock With K transactions To Maximize Profit"
 
 
