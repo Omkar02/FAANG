@@ -297,3 +297,34 @@ X = 10
 Y = 1
 # Output: 5
 # print(num_of_jumps(heights, X, Y))
+
+
+## reverse Linked List ###
+def reverse_linked_list(lis):
+    p1 = None
+    p2 = lis.getHead()
+    lis.traverseList()
+    while p2:
+        p3 = p2.nextNode
+        p2.nextNode = p1
+
+        p1 = p2
+        p2 = p3
+    lis.head = p1
+    lis.traverseList()
+
+
+a = [1, 2, 3, 4, 5]
+[l.insertStart(i) for i in a]
+# reverse_linked_list(l)
+
+
+def fib(n):
+    if n == 2:
+        return 1
+    if n == 1:
+        return 0
+    return fib(n - 1) + fib(n - 2)
+
+
+print(fib(9))

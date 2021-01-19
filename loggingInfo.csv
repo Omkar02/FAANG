@@ -489,3 +489,10 @@ AZ_LC_1024_Video_Stitching.py,2021-01-01,2021-01-01,10:35:43 PM,10:41:27 PM,6.0,
 AZ_LC_402_Remove_K_Digits.py,2021-01-02,2021-01-02,10:56:25 AM,11:02:51 AM,6.0,String,Medium
 AZ_LC_451_Sort_Characters_By_Frequency.py,2021-01-02,2021-01-02,03:25:43 PM,03:37:57 PM,12.0,Array,Medium
 Cisco_prac.py,2021-01-10,2021-01-10,11:10:43 AM,11:49:09 AM,38.0,Array,Medium
+Media_ways_array_split_into_two_equal_sum_seq.py,2021-01-18,2021-01-18,09:39:35 PM,09:53:35 PM,14.0,Array,Medium
+MN_KnapSack01.py,2021-01-19,2021-01-19,10:08:39 AM,10:15:46 AM,7.0,Dynamic-Programming,Medium
+MN_LongestCommonSubSeq.py,2021-01-19,2021-01-19,10:30:17 AM,10:32:56 AM,2.0,Dynamic-Programming,Medium
+MN_SubSetSum.py,2021-01-19,2021-01-19,10:44:29 AM,10:50:35 AM,6.0,Dynamic-Programming,Medium
+MN_CoinChange.py,2021-01-19,2021-01-19,11:01:32 AM,11:14:18 AM,12.0,Dynamic-Programming,Medium
+MN_MinEditDist.py,2021-01-19,2021-01-19,11:33:55 AM,11:37:11 AM,3.0,Dynamic-Programming,Medium
+MN_LongestIncreasingSubseq.py,2021-01-19,2021-01-19,12:30:03 PM,12:34:10 PM,4.0,Dynamic-Programming,Medium

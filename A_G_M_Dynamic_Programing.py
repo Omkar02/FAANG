@@ -29,7 +29,6 @@ idx = len(itemWei)
 
 # print(KP(bagW, itemWei, itemVal, idx))
 # print(cnt)
-
 'Longest Common Subsequence'
 
 
@@ -98,20 +97,22 @@ target = 9
 'Coin Changing Minimum Number'
 
 
-def CC(denom, idx, target):
+def CC(denom, target, idx):
     cnt[0] += 1
+    # base condition if 0 the coins will be 0
     if target == 0:
-        return 1
-    if target < 0:
         return 0
-    if idx <= 0 and target >= 1:
-        return 0
-
-    return CC(denom, idx, target - denom[idx - 1]) + CC(denom, idx - 1, target)
+    coins = float('inf')
+    # compare for all coins
+    for i in range(idx):
+        if denom[i] <= target:
+            currCoin = CC(denom, target - denom[i], idx)
+            coins = min(coins, currCoin + 1)
+    return coins
 
 
 denomination = [1, 2, 3]
 idx = len(denomination)
 target = 4
-# print(CC(denomination, idx, target))
-# print(cnt)
+print(CC(denomination, target, idx))
+print(cnt)
