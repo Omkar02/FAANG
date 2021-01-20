@@ -499,3 +499,9 @@ MN_LongestIncreasingSubseq.py,2021-01-19,2021-01-19,12:30:03 PM,12:34:10 PM,4.0,
 MN_LongestPali.py,2021-01-19,2021-01-19,09:35:06 PM,09:43:05 PM,7.0,Dynamic-Programming,Medium
 MN_CuttingRod.py,2021-01-19,2021-01-19,09:43:40 PM,09:59:03 PM,15.0,Dynamic-Programming,Medium
 MN_JobScheduling.py,2021-01-19,2021-01-19,10:17:12 PM,10:24:31 PM,7.0,Dynamic-Programming,Medium
+MN_WordBreak.py,2021-01-20,2021-01-20,10:17:03 AM,10:30:30 AM,13.0,Dynamic-Programming,Medium
+MN_MaxProfit.py,2021-01-20,2021-01-20,10:36:47 AM,10:45:24 AM,8.0,Dynamic-Programming,Medium
+MN_MinJumps.py,2021-01-20,2021-01-20,12:20:47 PM,12:28:37 PM,8.0,Dynamic-Programming,Medium
+MN_MinCostPath.py,2021-01-20,2021-01-20,12:29:12 PM,12:39:34 PM,10.0,Dynamic-Programming,Medium
+MN_TextJustification.py,2021-01-20,2021-01-20,12:42:25 PM,12:50:50 PM,8.0,Dynamic-Programming,Medium
+MN_OptimalStrategy.py,2021-01-20,2021-01-20,12:52:44 PM,01:01:21 PM,8.0,Dynamic-Programming,Medium

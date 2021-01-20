@@ -89,17 +89,15 @@ maxWidth = 16
 "Optimal Game Strategy"
 
 
-def OGS(array, i, j, currSum, cache):
+def OGS(array, i, j, currSum):
     cnt[0] += 1
     if j == i + 1:
         return max(array[i], array[j])
-    return max(currSum - OGS(array, i + 1, j, currSum - array[i], cache),
-               currSum - OGS(array, i, j - 1, currSum - array[j], cache))
-
-    return cache[curr]
+    return max(currSum - OGS(array, i + 1, j, currSum - array[i]),
+               currSum - OGS(array, i, j - 1, currSum - array[j]))
 
 
 array = [8, 15, 3, 7]
 array = [20, 30, 2, 2, 2, 10]
-# print(OGS(array, 0, len(array) - 1, sum(array), {}))
+# print(OGS(array, 0, len(array) - 1, sum(array)))
 # print(cnt)

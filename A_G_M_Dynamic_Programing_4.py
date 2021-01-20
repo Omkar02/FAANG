@@ -64,7 +64,8 @@ dictionary = ["self", "th", "is", "famous", "Word",
               "bre", "brea", "ak", "problem"]
 
 string = "Wordbreakproblem"
-# print(WBP(string, dictionary, "", []))
+# ans = WBP(string, dictionary, "", [])
+# [print(x) for x in ans]
 # print(cnt)
 
 
