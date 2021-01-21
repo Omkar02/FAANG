@@ -28,7 +28,7 @@ def PP(string, i, j):
 
 
 string = 'abcbm'
-# print(PP(string, 0, len(string) - 1))
+print(PP(string, 0, len(string) - 1))
 # print(cnt)
 
 
