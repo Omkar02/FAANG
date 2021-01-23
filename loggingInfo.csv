@@ -511,3 +511,6 @@ MN_CloseValBst.py,2021-01-21,2021-01-21,09:35:43 PM,09:45:13 PM,9.0,Tree,Medium
 MN_BranchSum.py,2021-01-21,2021-01-21,09:50:06 PM,09:58:07 PM,8.0,Tree,Medium
 MN_nFiboAndStaircase.py,2021-01-21,2021-01-21,10:16:45 PM,10:21:37 PM,4.0,Dynamic-Programming,Medium
 MN_ProSum.py,2021-01-21,2021-01-21,10:22:18 PM,10:26:01 PM,3.0,Array,Medium
+MN_3LargestVal.py,2021-01-23,2021-01-23,11:36:50 AM,11:46:37 AM,9.0,Array,Medium
+MN_3Sum.py,2021-01-23,2021-01-23,12:54:50 PM,01:00:22 PM,5.0,Array,Medium
+MN_SmallestDiff.py,2021-01-23,2021-01-23,01:04:17 PM,01:11:17 PM,7.0,Array,Medium
