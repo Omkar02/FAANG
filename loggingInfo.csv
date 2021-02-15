@@ -520,5 +520,15 @@ MN_Round_two.py,2021-01-30,2021-01-30,09:06:53 PM,09:52:13 PM,45.0,Array,Medium
 MN_Round_two_2.py,2021-01-31,2021-01-31,08:48:44 PM,09:38:53 PM,50.0,Array,Medium
 MN_Round_two_3.py,2021-02-01,2021-02-01,01:28:51 PM,02:11:48 PM,42.0,Array,Medium
 MN_Round_two_4.py,2021-02-01,2021-02-01,09:40:02 PM,10:24:25 PM,44.0,Array,Medium
-MN_Round_two_5.py,2021-02-02,None,12:15:31 PM,None,None,Array,Medium
+MN_Round_two_5.py,2021-02-02,2021-02-02,12:15:31 PM,12:30:31 PM,15.0,Array,Medium
 MN_Round_Two_6.py,2021-02-03,2021-02-03,10:08:57 AM,10:38:14 AM,29.0,Array,Medium
+LC_yelp_599_Minimum_Index_Sum_of_Two_Lists.py,2021-02-15,2021-02-15,09:35:38 AM,09:46:03 AM,10.0,Array,Easy
+LC_yelp_564_Find_the_Closest_Palindrome.py,2021-02-15,2021-02-15,09:48:28 AM,09:54:59 AM,6.0,String,Hard
+LC_yelp_273_Integer_to_English_Words.py,2021-02-15,2021-02-15,09:59:58 AM,10:17:32 AM,17.0,String,Hard
+LC_yelp_332_Reconstruct_Itinerary.py,2021-02-15,2021-02-15,10:24:23 AM,10:36:35 AM,12.0,Graphs,Medium
+LC_yelp_56_Merge_Intervals.py,2021-02-15,2021-02-15,11:24:35 AM,11:38:06 AM,13.0,Array,Medium
+LC_yelp_49_Group_Anagrams.py,2021-02-15,2021-02-15,02:29:55 PM,02:34:45 PM,4.0,Array,Medium
+LC_yelp_692_Top_K_Frequent_Words.py,2021-02-15,2021-02-15,02:43:48 PM,02:53:42 PM,9.0,Array,Medium
+LC_yelp_139_Word_Break.py,2021-02-15,2021-02-15,03:00:25 PM,03:08:15 PM,7.0,Dynamic-Programming,Medium
+LC_yelp_218_The_Skyline_Problem.py,2021-02-15,2021-02-15,03:14:32 PM,03:28:53 PM,14.0,Array,Hard
+LC_yelp_347_Top_K_Frequent_Elements.py,2021-02-15,2021-02-15,04:21:17 PM,04:26:20 PM,5.0,Array,Medium
