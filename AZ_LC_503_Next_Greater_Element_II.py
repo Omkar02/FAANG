@@ -26,4 +26,5 @@ def nextGreaterEle(nums):
     return res
 
 
+nums = [4, 5, 2, 25]
 print(nextGreaterEle(nums))

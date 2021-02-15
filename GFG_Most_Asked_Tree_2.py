@@ -59,7 +59,7 @@ def LOTS(node):
     return ans
 
 
-# print(LOTS(readyTree.getHead()))
+print(LOTS(readyTree.getHead()))
 
 "Connect Nodes at same Level (Level Order Traversal)"
 
