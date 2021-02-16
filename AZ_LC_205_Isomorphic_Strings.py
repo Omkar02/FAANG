@@ -29,4 +29,7 @@ str2 = "bar"
 
 str1 = "paper"
 str2 = "title"
+
+str1 = "a"
+str2 = "a"
 print(isomorficString(str1, str2))

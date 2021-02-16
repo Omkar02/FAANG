@@ -532,3 +532,10 @@ LC_yelp_692_Top_K_Frequent_Words.py,2021-02-15,2021-02-15,02:43:48 PM,02:53:42 P
 LC_yelp_139_Word_Break.py,2021-02-15,2021-02-15,03:00:25 PM,03:08:15 PM,7.0,Dynamic-Programming,Medium
 LC_yelp_218_The_Skyline_Problem.py,2021-02-15,2021-02-15,03:14:32 PM,03:28:53 PM,14.0,Array,Hard
 LC_yelp_347_Top_K_Frequent_Elements.py,2021-02-15,2021-02-15,04:21:17 PM,04:26:20 PM,5.0,Array,Medium
+LC_yelp_528_Random_Pick_with_Weight.py,2021-02-16,2021-02-16,10:14:39 AM,10:22:09 AM,7.0,Array,Medium
+LC_yelp_919_Meeting_Rooms_II.py,2021-02-16,2021-02-16,10:24:31 AM,10:32:56 AM,8.0,Array,Medium
+LC_yelp_127_Word_Ladder.py,2021-02-16,2021-02-16,10:33:29 AM,10:41:48 AM,8.0,Array,Medium
+LC_yelp_1333_Filter_Restaurants_by_Vegan-Friendly.py,2021-02-16,2021-02-16,11:29:28 AM,11:50:41 AM,21.0,Array,Medium
+LC_yelp_3_Longest_Substring_Without_Repeating_Char.py,2021-02-16,2021-02-16,11:53:03 AM,12:02:30 PM,9.0,String,Medium
+LC_yelp_14_Longest_Common_Prefix.py,2021-02-16,2021-02-16,12:14:29 PM,12:17:38 PM,3.0,String,Easy
+LC_yelp_205_Isomorphic_Strings.py,2021-02-16,2021-02-16,02:37:17 PM,02:46:02 PM,8.0,String,Easy
