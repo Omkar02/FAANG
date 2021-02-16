@@ -539,3 +539,6 @@ LC_yelp_1333_Filter_Restaurants_by_Vegan-Friendly.py,2021-02-16,2021-02-16,11:29
 LC_yelp_3_Longest_Substring_Without_Repeating_Char.py,2021-02-16,2021-02-16,11:53:03 AM,12:02:30 PM,9.0,String,Medium
 LC_yelp_14_Longest_Common_Prefix.py,2021-02-16,2021-02-16,12:14:29 PM,12:17:38 PM,3.0,String,Easy
 LC_yelp_205_Isomorphic_Strings.py,2021-02-16,2021-02-16,02:37:17 PM,02:46:02 PM,8.0,String,Easy
+LC_yelp_22_Generate_Parentheses.py,2021-02-16,2021-02-16,09:11:30 PM,09:22:10 PM,10.0,Array,Medium
+LC_yelp_207_Course_Schedule.py,2021-02-16,2021-02-16,09:29:47 PM,09:45:48 PM,16.0,Graphs,Medium
+LC_yelp_784_Letter_Case_Permutation.py,2021-02-16,2021-02-16,09:57:31 PM,10:03:20 PM,5.0,String,Medium
