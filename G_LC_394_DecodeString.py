@@ -54,6 +54,6 @@ def decodeStringHelper(s, idx):
     return decoded, idx + 1
 
 
-s = "1[a]2[bc]"
+s = "3[a]2[bc]"
 # s = "1[abc]3[cd]ef"
 print(decodeString(s))
