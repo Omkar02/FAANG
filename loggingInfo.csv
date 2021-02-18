@@ -546,3 +546,6 @@ LC_yelp_39_Combination_Sum.py,2021-02-17,2021-02-17,09:31:52 PM,09:42:15 PM,10.0
 LC_yelp_239_Sliding_Window_Maximum.py,2021-02-17,None,09:51:56 PM,None,None,Array,Hard
 LC_yelp_394_Decode_String.py,2021-02-17,2021-02-17,10:03:52 PM,10:11:38 PM,7.0,Array,Medium
 LC_yelp_443_String_Compression.py,2021-02-17,2021-02-17,10:36:50 PM,10:45:54 PM,9.0,Array,Medium
+LC_yelp_206_Reverse_Linked_List.py,2021-02-18,2021-02-18,09:29:17 AM,09:33:39 AM,4.0,Linked-List,Medium
+LC_yelp_1436_Destination_City.py,2021-02-18,2021-02-18,09:37:50 AM,09:51:28 AM,13.0,Graphs,Medium
+LC_yelp_1455_Check_If_a_Word_Occurs_As_a_Prefix.py,2021-02-18,2021-02-18,09:58:04 AM,10:03:50 AM,5.0,String,Medium

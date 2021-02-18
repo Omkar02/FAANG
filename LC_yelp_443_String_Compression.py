@@ -24,5 +24,5 @@ def compressString(chars):
 
 chars = ["a", "a", "b", "b", "c", "c", "c"]
 # chars = ["a", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b", "b"]
-# chars = ["a", "a", "a", "b", "b", "a"]
+chars = ["a", "a", "a", "b", "b", "a","a"]
 print(compressString(chars))
