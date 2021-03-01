@@ -1,9 +1,9 @@
-import __main__ as main
-from Helper.TimerLogger import CodeTimeLogging
-fileName = main.__file__
-fileName = fileName.split('\\')[-1]
+# import __main__ as main
+# from Helper.TimerLogger import CodeTimeLogging
+# fileName = main.__file__
+# fileName = fileName.split('\\')[-1]
 
-CodeTimeLogging(Flag='F', filename=fileName, Tag='String', Difficult='Medium')
+# CodeTimeLogging(Flag='F', filename=fileName, Tag='String', Difficult='Medium')
 
 
 def isPrefix(sentence, searchWord):
@@ -18,9 +18,9 @@ def isPrefix(sentence, searchWord):
 sentence = "i love eating burger"
 searchWord = "burg"
 
-sentence = "this problem is an easy problem"
-searchWord = "pro"
+# sentence = "this problem is an easy problem"
+# searchWord = "pro"
 
-sentence = "i am tired"
-searchWord = "you"
+# sentence = "i am tired"
+# searchWord = "you"
 print(isPrefix(sentence, searchWord))

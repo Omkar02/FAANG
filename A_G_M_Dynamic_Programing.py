@@ -89,7 +89,7 @@ def SSP(array, currSum, idx):
 
 
 array = [3, 34, 4, 12, 5, 2]
-target = 9
+target = 60
 # print(SSP(array, target, len(array)))
 # print(cnt)
 
@@ -114,5 +114,5 @@ def CC(denom, target, idx):
 denomination = [1, 2, 3]
 idx = len(denomination)
 target = 4
-print(CC(denomination, target, idx))
-print(cnt)
+# print(CC(denomination, target, idx))
+# print(cnt)

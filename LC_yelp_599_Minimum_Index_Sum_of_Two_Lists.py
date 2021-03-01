@@ -18,10 +18,12 @@ def findRestruant(list1, list2):
     for idx, resturant in enumerate(list1):
         if resturant in hTwo:
             currIndexSum = idx + hTwo[resturant]
-            if minIndexSum >= currIndexSum:
+            if minIndexSum > currIndexSum:
+                gotoResturant = []
                 minIndexSum = currIndexSum
                 gotoResturant.append(resturant)
-
+            elif minIndexSum == currIndexSum:
+                gotoResturant.append(resturant)
     return gotoResturant
 
 
@@ -34,4 +36,7 @@ list2 = ["KFC", "Shogun", "Burger King"]
 list1 = ["Shogun", "Tapioca Express", "Burger King", "KFC"]
 list2 = ["KFC", "Burger King", "Tapioca Express", "Shogun"]
 # Output: ["KFC", "Burger King", "Tapioca Express", "Shogun"]
+
+list1 = ["Shogun", "Tapioca Express", "Burger King", "KFC"]
+list2 = ["Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Shogun"]
 print(findRestruant(list1, list2))

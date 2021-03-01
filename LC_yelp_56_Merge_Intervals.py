@@ -25,6 +25,9 @@ intervals = [[1, 3], [2, 6], [8, 10], [15, 18]]
 # Output: [[1, 6], [8, 10], [15, 18]]
 intervals = [[1, 4], [4, 5]]
 intervals = [[1, 4], [2, 3]]
+intervals = [[2, 3], [9, 11], [1, 5], [14, 18]]
 # Output :[[1,4]]
+
+intervals = [[7, 7], [2, 3], [6, 11], [1, 2]]
 
 print(mergeInterval(intervals))
