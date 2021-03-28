@@ -20,13 +20,14 @@ def longestStringWithUnigque(string, k):
         letterPos[string[i]] += 1
         currLen += 1
         if len(letterPos) > k:
+            print(letterPos)
             while letterPos[string[startIdx]] != 0:
                 currLen -= 1
                 letterPos[string[startIdx]] -= 1
                 temp += 1
             del letterPos[string[startIdx]]
             startIdx = temp
-            temp = 0
+            temp = endIdx + 1
 
         endIdx = i
 
@@ -42,5 +43,5 @@ string = "aabbccddeee"
 k = 4
 
 string = "WORLD"
-k = 4
+k = 1
 print(longestStringWithUnigque(string, k))

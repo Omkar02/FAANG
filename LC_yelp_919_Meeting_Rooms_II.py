@@ -18,7 +18,7 @@ def meatingRoom(intervals):
         elif stack[-1][1] <= i[0]:
             stack.pop()
             stack.append(i)
-
+        stack.sort(key=lambda a: a[0])
     return len(stack)
 
 

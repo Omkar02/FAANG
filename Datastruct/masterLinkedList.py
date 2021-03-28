@@ -56,10 +56,10 @@ class LinkedList(object):
         newNode = Node(data)
         actualNode = self.head
 
-        while actualNode.nextNode is not None:
+        while actualNode is not None and actualNode.nextNode is not None:
             actualNode = actualNode.nextNode
-
-        actualNode.nextNode = newNode
+        if actualNode:
+            actualNode.nextNode = newNode
 
     def traverseList(self):
         actualNode = self.head

@@ -17,7 +17,7 @@ def BSTP(n):
         return 1
 
     numTrees = 0
-    for left in range(n)
+    for left in range(n):
         right = n - 1 - left
         lNode = BSTP(left)
         rNode = BSTP(right)
@@ -38,6 +38,7 @@ def TWM(board):
         for j in range(1, len(board[0])):
             cnt[0] += 1
             dp[i][j] = dp[i - 1][j] + dp[i][j - 1]
+    [print(x) for x in dp]
     return dp[-1][-1]
 
 
@@ -46,8 +47,8 @@ board = [[1, 2, 3, 4],
          [9, 10, 11, 12],
          [13, 14, 15, 16]]
 
-# print(TWM(board))
-# print(cnt)
+print(TWM(board))
+print(cnt)
 
 "Longest Bitonic Subsequence"
 

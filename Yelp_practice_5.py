@@ -53,3 +53,36 @@ class Twitter:
         if followerId in self.followers:
             if followeeId in self.followers[followerId]:
                 self.followers[followerId].remove(followeeId)
+
+
+def longStringWithK(string, k):
+    t('longest-substring-with-at-most-k-distinct-characters')
+
+    letterPos = {}
+    startIdx = temp = 0
+    n = len(string)
+    currLen, maxLen = 0, float('-inf')
+    for i in range(n):
+        if string[i] not in letterPos:
+            letterPos[string[i]] = 0
+        letterPos[string[i]] += 1
+        currLen += 1
+        if len(letterPos) > k:
+            while letterPos[string[startIdx]] != 0:
+                currLen -= 1
+                letterPos[string[startIdx]] -= 1
+                temp += 1
+            del letterPos[string[startIdx]]
+            startIdx = temp
+            temp = endIdx + 1
+        endIdx = i
+
+        if currLen > maxLen:
+            maxLen = currLen
+            res = [startIdx, endIdx]
+    return maxLen, string[res[0]:res[1] + 1]
+
+
+string = 'aaabcccca'
+k = 1
+print(longStringWithK(string, k))
